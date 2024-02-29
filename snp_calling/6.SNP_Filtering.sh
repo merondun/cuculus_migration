@@ -7,11 +7,12 @@
 #SBATCH --cpus-per-task=10
 #SBATCH --time=200:00:00
 
+# mamba activate snps
+# submit as  for i in $(cat Chromosomes.list); do sbatch -J FILTER_${i} ~/merondun/cuculus_migration/pre_processing/6.SNP_Filtering.sh ${i}; done 
 CHR=$1
 
 mkdir chromosome_vcfs chromosome_vcfs/stats
 
-#mamba activate snps
 raw_vcfs=/dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2021__Cuckoo_Resequencing/vcfs/all_samples-2022_11/merged
 samples=/dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/SampleSubset_DistanceK_n10_2023DEC06.list
 
