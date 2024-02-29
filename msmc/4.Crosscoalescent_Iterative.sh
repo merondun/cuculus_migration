@@ -40,7 +40,7 @@ echo "${vcfdir}/${j}_${i}.vcf.gz" >> crosscoal/${P1}_${P2}_${IT}.${i}_POPvcf.lis
 
 done
 
-generate_multihetsep.py --chr ${i} --mask ${gwmask}/GCA_017976375.1_${i}.mask.bed.gz $(cat crosscoal/${P1}_${P2}_${IT}.${i}_POPmask.list) $(cat crosscoal/${P1}_${P2}_${IT}.${i}_POPvcf.list) > crosscoal/input/${P1}_${P2}_${i}_${IT}.multihetsep.txt
+generate_multihetsep.py --chr ${i} --mask ${gwmask}/GCA_017976375.1_${i}.mask.bed.gz $(cat crosscoal/${P1}_${P2}_${IT}.${i}_POPmask.list) $(cat crosscoal/${P1}_${P2}_${IT}.${i}_POPvcf.list) > crosscoal/input/${P1}_${P2}_${IT}_${i}.multihetsep.txt
 
 done
 
