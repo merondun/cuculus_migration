@@ -8,7 +8,7 @@
 #SBATCH --time=48:00:00
 
 # mamba activate snps 
-# to submit: for i in $(cat GROUPS.list); do sbatch -J REL_${i} ~/merondun/cuculus_migration/relatedness/1.Related_Within_Species.sh ${i} ; done 
+# to submit: for i in $(cat GROUPS.list); do sbatch -J REL_${i} ~/merondun/cuculus_migration/relatedness/1.Plink_Related.sh ${i} ; done 
 GROUP=$1
 
 raw_vcfdir=/dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2021__Cuckoo_Resequencing/vcfs/all_samples-2022_11/merged
