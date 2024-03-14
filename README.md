@@ -8,9 +8,13 @@ The repository is organized as follows:
 
 - **pre_processing**: Preparing fastq reads, alignment. 
 
-- **snp_calling**: Calling SNPs from alignments, identify relatives. 
+- **snp_calling**: Calling SNPs from alignments, subsampling individuals. 
+
+- **relatedness**: Identify related individuals. 
 
 - **msmc**: Run MSMC crosscoalescent and MSMC-IM, using raw gVCFs with basic filtering for invariant sites. 
+
+- **admixture**: Run ADMIXTURE and evalAdmix for plotting genetic tesselations across space. 
 
 ## Contact
 
