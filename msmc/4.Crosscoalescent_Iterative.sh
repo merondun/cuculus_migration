@@ -8,12 +8,12 @@
 #SBATCH --time=200:00:00
 
 #mamba activate samtools0.1.19
-
+#submit: sbatch ~/merondun/cuculus_migration/msmc/4.Crosscoalescent_Iterative.sh CCW CCE 1
 genome=/dss/dsslegfs01/pr53da/pr53da-dss-0021/assemblies/Cuculus.canorus/VGP.bCucCan1.pri/GCA_017976375.1_bCucCan1.pri_genomic.CHR.fa
 #file with the mosdepth coverage masks (sites < 1/2 or > 2 the chromosome-sample-specific coverage are ignored )
-maskdir=/dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2021__Cuckoo_Resequencing/demography/msmc/population_vcf/cov_mask
-#vcfs 
-vcfdir=/dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2021__Cuckoo_Resequencing/demography/msmc/population_vcf/vcfs
+maskdir=/dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/coverage_masks
+#vcfs, individual for sample-chr 
+vcfdir=/dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/individual_vcfs
 #genome-wide mappability mask 
 gwmask=/dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2021__Cuckoo_Resequencing/demography/mappability/masks/
 
@@ -22,11 +22,11 @@ P1=$1
 P2=$2
 IT=$3
 
-mkdir crosscoal/input crosscoal/output
+mkdir crosscoal crosscoal/input crosscoal/output
 
 #grab 2 random samples from each population 
-grep -w ${P1} SampleSubset_DistanceK_n10_2023DEC06.pop | awk '{print $1}' | shuf | head -n 2 > crosscoal/${P1}_${P2}_${IT}.inds
-grep -w ${P2} SampleSubset_DistanceK_n10_2023DEC06.pop | awk '{print $1}' | shuf | head -n 2 >> crosscoal/${P1}_${P2}_${IT}.inds
+grep -w ${P1} ~/merondun/cuculus_migration/Samples_Demography_N10_CCW-CCE-COW-COE_2024MAR13.pop | awk '{print $1}' | shuf | head -n 2 > crosscoal/${P1}_${P2}_${IT}.inds
+grep -w ${P2} ~/merondun/cuculus_migration/Samples_Demography_N10_CCW-CCE-COW-COE_2024MAR13.pop | awk '{print $1}' | shuf | head -n 2 >> crosscoal/${P1}_${P2}_${IT}.inds
 
 #loop through chromosomes and create the msmc input file 
 for i in $(cat Chromosomes.list); do

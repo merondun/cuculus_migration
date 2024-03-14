@@ -62,7 +62,7 @@ rm chromosome_vcfs/${CHR}_snp.MQ-5X-MM1-A1.vcf.gz* chromosome_vcfs/${CHR}_snp.MQ
 
 # LD Prune
 bedtools intersect -header -a chromosome_vcfs/${CHR}_snp.MQ-5X-MM1-AA.vcf.gz -b $neutral | \
-        bcftools +prune -m 0.2 --window 50 -Oz -o chromosome_vcfs/${CHR}_snp.MQ-5X-MM1-AA-LDr2w50.vcf.gz -
+        bcftools +prune -m 0.2 --window 50 -Oz -o chromosome_vcfs/${CHR}_snp.MQ-5X-MM1-AA-LDr2w50.vcf.gz
 bcftools index --threads 10  chromosome_vcfs/${CHR}_snp.MQ-5X-MM1-AA-LDr2w50.vcf.gz
 
 # And phase with beagle 
