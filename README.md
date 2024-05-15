@@ -1,6 +1,6 @@
 # Evolutionary Genomics of Migration: Oriental and common cuckoos 
 
-This project aims to investigate the evolutionary genomics underlying migratory strategy in common and oriental cuckoos. 
+This project aims to investigate the evolutionary genomics underlying migratory strategy in common and oriental cuckoos.
 
 ## Project Structure
 
