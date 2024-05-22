@@ -7,17 +7,18 @@
 #SBATCH --cpus-per-task=2
 #SBATCH --time=48:00:00
 
-#submit sample as positional for RUN in $(cat Samples_Demography_N10_CCW-CCE-COW-COE-CCM-CCN_2024APR17.list); do sbatch -J COV_${RUN} 2.Coverage_Masks.sh ${RUN} ; done
+#submit sample as positional for RUN in $(cat ~/merondun/cuculus_migration/Samples_Demography_N10_CCW-CCE-COW-COE_2024MAR13.list); do sbatch -J COV_${RUN} 2.Coverage_Masks.sh ${RUN} ; done
 SAMPLE=$1
 
 bamdir=/dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2021__Cuckoo_Resequencing/bams/Illumina_Alignments_Merged
 #output mask directory
-maskdir=/dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/from_raw_vcf/coverage_masks
+maskdir=/dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks
 #directory with the n=40 subsampled phased, neutral and non-repetitive VCFS
-vcfs=/dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/from_raw_vcf/full_vcf
+vcfs=/dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/full_vcf
 #output directory with the individual chromosome level vcfs
-indvcfs=/dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/from_raw_vcf/individual_vcfs
+indvcfs=/dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/individual_vcfs
 
+cd /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin
 mkdir $maskdir $maskdir/work $indvcfs
 
 #loop through each chromosome

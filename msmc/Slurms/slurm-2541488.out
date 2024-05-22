@@ -1,0 +1,1368 @@
+mkdir: cannot create directory ‘crosscoal’: File exists
+mkdir: cannot create directory ‘crosscoal/input’: File exists
+mkdir: cannot create directory ‘crosscoal/output’: File exists
+rm: cannot remove 'crosscoal/CCW_CCE_2.chr_1_POPmask.list': No such file or directory
+rm: cannot remove 'crosscoal/CCW_CCE_2.chr_1_POPvcf.list': No such file or directory
+generating msmc input file with 8 haplotypes
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2021__Cuckoo_Resequencing/demography/mappability/masks//GCA_017976375.1_chr_1.mask.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/neutral-sites_cuckoo__intergenic-intron-4fold.bed
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/119_CC_UNK_ENG_F_chr_1.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/134_CC_UNK_ENG_M_chr_1.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/142_CC_UNK_RUS_M_chr_1.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/260_CC_SRT_RUS_F_chr_1.bed.gz
+adding negative mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/GCA_017976375.1_bCucCan1.pri_genomic.CHR.AvianRepeatModeler_Repeats-ExcludingLowComplexity-SimpleRepeats.bed
+processing pos 1000000
+processing pos 2000000
+processing pos 3000000
+processing pos 4000000
+processing pos 5000000
+processing pos 6000000
+processing pos 7000000
+processing pos 8000000
+processing pos 9000000
+processing pos 10000000
+processing pos 11000000
+processing pos 12000000
+processing pos 13000000
+processing pos 14000000
+processing pos 15000000
+processing pos 16000000
+processing pos 17000000
+processing pos 18000000
+processing pos 19000000
+processing pos 20000000
+processing pos 21000000
+processing pos 22000000
+processing pos 23000000
+processing pos 24000000
+processing pos 25000000
+processing pos 26000000
+processing pos 27000000
+processing pos 28000000
+processing pos 29000000
+processing pos 30000000
+processing pos 31000000
+processing pos 32000000
+processing pos 33000000
+processing pos 34000000
+processing pos 35000000
+processing pos 36000000
+processing pos 37000000
+processing pos 38000000
+processing pos 39000000
+processing pos 40000000
+processing pos 41000000
+processing pos 42000000
+processing pos 43000000
+processing pos 44000000
+processing pos 45000000
+processing pos 46000000
+processing pos 47000000
+processing pos 48000000
+processing pos 49000000
+processing pos 50000000
+processing pos 51000000
+processing pos 52000000
+processing pos 53000000
+processing pos 54000000
+processing pos 55000000
+processing pos 56000000
+processing pos 57000000
+processing pos 58000000
+processing pos 59000000
+processing pos 60000000
+processing pos 61000000
+processing pos 62000000
+processing pos 63000000
+processing pos 64000000
+processing pos 65000000
+processing pos 66000000
+processing pos 67000000
+processing pos 68000000
+processing pos 69000000
+processing pos 70000000
+processing pos 71000000
+processing pos 72000000
+processing pos 73000000
+processing pos 74000000
+processing pos 75000000
+processing pos 76000000
+processing pos 77000000
+processing pos 78000000
+processing pos 79000000
+processing pos 80000000
+processing pos 81000000
+processing pos 82000000
+processing pos 83000000
+processing pos 84000000
+processing pos 85000000
+processing pos 86000000
+processing pos 87000000
+processing pos 88000000
+processing pos 89000000
+processing pos 90000000
+processing pos 91000000
+processing pos 92000000
+processing pos 93000000
+processing pos 94000000
+processing pos 95000000
+processing pos 96000000
+processing pos 97000000
+processing pos 98000000
+processing pos 99000000
+processing pos 100000000
+processing pos 101000000
+processing pos 102000000
+processing pos 103000000
+processing pos 104000000
+processing pos 105000000
+processing pos 106000000
+processing pos 107000000
+processing pos 108000000
+processing pos 109000000
+processing pos 110000000
+processing pos 111000000
+processing pos 112000000
+processing pos 113000000
+processing pos 114000000
+processing pos 115000000
+processing pos 116000000
+processing pos 117000000
+processing pos 118000000
+processing pos 119000000
+processing pos 120000000
+processing pos 121000000
+processing pos 122000000
+processing pos 123000000
+processing pos 124000000
+processing pos 125000000
+processing pos 126000000
+processing pos 127000000
+processing pos 128000000
+processing pos 129000000
+processing pos 130000000
+processing pos 131000000
+processing pos 132000000
+processing pos 133000000
+processing pos 134000000
+processing pos 135000000
+processing pos 136000000
+processing pos 137000000
+processing pos 138000000
+processing pos 139000000
+processing pos 140000000
+processing pos 141000000
+processing pos 142000000
+processing pos 143000000
+processing pos 144000000
+processing pos 145000000
+processing pos 146000000
+processing pos 147000000
+processing pos 148000000
+processing pos 149000000
+processing pos 150000000
+processing pos 151000000
+processing pos 152000000
+processing pos 153000000
+processing pos 154000000
+processing pos 155000000
+processing pos 156000000
+processing pos 157000000
+processing pos 158000000
+processing pos 159000000
+processing pos 160000000
+processing pos 161000000
+processing pos 162000000
+processing pos 163000000
+processing pos 164000000
+processing pos 165000000
+processing pos 166000000
+processing pos 167000000
+processing pos 168000000
+processing pos 169000000
+processing pos 170000000
+processing pos 171000000
+processing pos 172000000
+processing pos 173000000
+processing pos 174000000
+processing pos 175000000
+processing pos 176000000
+processing pos 177000000
+processing pos 178000000
+processing pos 179000000
+processing pos 180000000
+processing pos 181000000
+processing pos 182000000
+processing pos 183000000
+processing pos 184000000
+processing pos 185000000
+processing pos 186000000
+processing pos 187000000
+processing pos 188000000
+processing pos 189000000
+processing pos 190000000
+processing pos 191000000
+processing pos 192000000
+processing pos 193000000
+processing pos 194000000
+processing pos 195000000
+processing pos 196000000
+processing pos 197000000
+processing pos 198000000
+processing pos 199000000
+processing pos 200000000
+processing pos 201000000
+processing pos 202000000
+processing pos 203000000
+processing pos 204000000
+processing pos 205000000
+processing pos 206000000
+processing pos 207000000
+processing pos 208000000
+processing pos 209000000
+rm: cannot remove 'crosscoal/CCW_CCE_2.chr_2_POPmask.list': No such file or directory
+rm: cannot remove 'crosscoal/CCW_CCE_2.chr_2_POPvcf.list': No such file or directory
+generating msmc input file with 8 haplotypes
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2021__Cuckoo_Resequencing/demography/mappability/masks//GCA_017976375.1_chr_2.mask.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/neutral-sites_cuckoo__intergenic-intron-4fold.bed
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/119_CC_UNK_ENG_F_chr_2.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/134_CC_UNK_ENG_M_chr_2.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/142_CC_UNK_RUS_M_chr_2.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/260_CC_SRT_RUS_F_chr_2.bed.gz
+adding negative mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/GCA_017976375.1_bCucCan1.pri_genomic.CHR.AvianRepeatModeler_Repeats-ExcludingLowComplexity-SimpleRepeats.bed
+processing pos 1000000
+processing pos 2000000
+processing pos 3000000
+processing pos 4000000
+processing pos 5000000
+processing pos 6000000
+processing pos 7000000
+processing pos 8000000
+processing pos 9000000
+processing pos 10000000
+processing pos 11000000
+processing pos 12000000
+processing pos 13000000
+processing pos 14000000
+processing pos 15000000
+processing pos 16000000
+processing pos 17000000
+processing pos 18000000
+processing pos 19000000
+processing pos 20000000
+processing pos 21000000
+processing pos 22000000
+processing pos 23000000
+processing pos 24000000
+processing pos 25000000
+processing pos 26000000
+processing pos 27000000
+processing pos 28000000
+processing pos 29000000
+processing pos 30000000
+processing pos 31000000
+processing pos 32000000
+processing pos 33000000
+processing pos 34000000
+processing pos 35000000
+processing pos 36000000
+processing pos 37000000
+processing pos 38000000
+processing pos 39000000
+processing pos 40000000
+processing pos 41000000
+processing pos 42000000
+processing pos 43000000
+processing pos 44000000
+processing pos 45000000
+processing pos 46000000
+processing pos 47000000
+processing pos 48000000
+processing pos 49000000
+processing pos 50000000
+processing pos 51000000
+processing pos 52000000
+processing pos 53000000
+processing pos 54000000
+processing pos 55000000
+processing pos 56000000
+processing pos 57000000
+processing pos 58000000
+processing pos 59000000
+processing pos 60000000
+processing pos 61000000
+processing pos 62000000
+processing pos 63000000
+processing pos 64000000
+processing pos 65000000
+processing pos 66000000
+processing pos 67000000
+processing pos 68000000
+processing pos 69000000
+processing pos 70000000
+processing pos 71000000
+processing pos 72000000
+processing pos 73000000
+processing pos 74000000
+processing pos 75000000
+processing pos 76000000
+processing pos 77000000
+processing pos 78000000
+processing pos 79000000
+processing pos 80000000
+processing pos 81000000
+processing pos 82000000
+processing pos 83000000
+processing pos 84000000
+processing pos 85000000
+processing pos 86000000
+processing pos 87000000
+processing pos 88000000
+processing pos 89000000
+processing pos 90000000
+processing pos 91000000
+processing pos 92000000
+processing pos 93000000
+processing pos 94000000
+processing pos 95000000
+processing pos 96000000
+processing pos 97000000
+processing pos 98000000
+processing pos 99000000
+processing pos 100000000
+processing pos 101000000
+processing pos 102000000
+processing pos 103000000
+processing pos 104000000
+processing pos 105000000
+processing pos 106000000
+processing pos 107000000
+processing pos 108000000
+processing pos 109000000
+processing pos 110000000
+processing pos 111000000
+processing pos 112000000
+processing pos 113000000
+processing pos 114000000
+processing pos 115000000
+processing pos 116000000
+processing pos 117000000
+processing pos 118000000
+processing pos 119000000
+processing pos 120000000
+processing pos 121000000
+processing pos 122000000
+processing pos 123000000
+processing pos 124000000
+processing pos 125000000
+processing pos 126000000
+processing pos 127000000
+processing pos 128000000
+processing pos 129000000
+processing pos 130000000
+processing pos 131000000
+processing pos 132000000
+processing pos 133000000
+processing pos 134000000
+processing pos 135000000
+processing pos 136000000
+processing pos 137000000
+processing pos 138000000
+processing pos 139000000
+processing pos 140000000
+processing pos 141000000
+processing pos 142000000
+processing pos 143000000
+processing pos 144000000
+processing pos 145000000
+processing pos 146000000
+processing pos 147000000
+processing pos 148000000
+processing pos 149000000
+processing pos 150000000
+processing pos 151000000
+processing pos 152000000
+processing pos 153000000
+processing pos 154000000
+processing pos 155000000
+processing pos 156000000
+processing pos 157000000
+processing pos 158000000
+processing pos 159000000
+processing pos 160000000
+processing pos 161000000
+processing pos 162000000
+rm: cannot remove 'crosscoal/CCW_CCE_2.chr_3_POPmask.list': No such file or directory
+rm: cannot remove 'crosscoal/CCW_CCE_2.chr_3_POPvcf.list': No such file or directory
+generating msmc input file with 8 haplotypes
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2021__Cuckoo_Resequencing/demography/mappability/masks//GCA_017976375.1_chr_3.mask.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/neutral-sites_cuckoo__intergenic-intron-4fold.bed
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/119_CC_UNK_ENG_F_chr_3.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/134_CC_UNK_ENG_M_chr_3.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/142_CC_UNK_RUS_M_chr_3.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/260_CC_SRT_RUS_F_chr_3.bed.gz
+adding negative mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/GCA_017976375.1_bCucCan1.pri_genomic.CHR.AvianRepeatModeler_Repeats-ExcludingLowComplexity-SimpleRepeats.bed
+processing pos 1000000
+processing pos 2000000
+processing pos 3000000
+processing pos 4000000
+processing pos 5000000
+processing pos 6000000
+processing pos 7000000
+processing pos 8000000
+processing pos 9000000
+processing pos 10000000
+processing pos 11000000
+processing pos 12000000
+processing pos 13000000
+processing pos 14000000
+processing pos 15000000
+processing pos 16000000
+processing pos 17000000
+processing pos 18000000
+processing pos 19000000
+processing pos 20000000
+processing pos 21000000
+processing pos 22000000
+processing pos 23000000
+processing pos 24000000
+processing pos 25000000
+processing pos 26000000
+processing pos 27000000
+processing pos 28000000
+processing pos 29000000
+processing pos 30000000
+processing pos 31000000
+processing pos 32000000
+processing pos 33000000
+processing pos 34000000
+processing pos 35000000
+processing pos 36000000
+processing pos 37000000
+processing pos 38000000
+processing pos 39000000
+processing pos 40000000
+processing pos 41000000
+processing pos 42000000
+processing pos 43000000
+processing pos 44000000
+processing pos 45000000
+processing pos 46000000
+processing pos 47000000
+processing pos 48000000
+processing pos 49000000
+processing pos 50000000
+processing pos 51000000
+processing pos 52000000
+processing pos 53000000
+processing pos 54000000
+processing pos 55000000
+processing pos 56000000
+processing pos 57000000
+processing pos 58000000
+processing pos 59000000
+processing pos 60000000
+processing pos 61000000
+processing pos 62000000
+processing pos 63000000
+processing pos 64000000
+processing pos 65000000
+processing pos 66000000
+processing pos 67000000
+processing pos 68000000
+processing pos 69000000
+processing pos 70000000
+processing pos 71000000
+processing pos 72000000
+processing pos 73000000
+processing pos 74000000
+processing pos 75000000
+processing pos 76000000
+processing pos 77000000
+processing pos 78000000
+processing pos 79000000
+processing pos 80000000
+processing pos 81000000
+processing pos 82000000
+processing pos 83000000
+processing pos 84000000
+processing pos 85000000
+processing pos 86000000
+processing pos 87000000
+processing pos 88000000
+processing pos 89000000
+processing pos 90000000
+processing pos 91000000
+processing pos 92000000
+processing pos 93000000
+processing pos 94000000
+processing pos 95000000
+processing pos 96000000
+processing pos 97000000
+processing pos 98000000
+processing pos 99000000
+processing pos 100000000
+processing pos 101000000
+processing pos 102000000
+processing pos 103000000
+processing pos 104000000
+processing pos 105000000
+processing pos 106000000
+processing pos 107000000
+processing pos 108000000
+processing pos 109000000
+processing pos 110000000
+processing pos 111000000
+processing pos 112000000
+processing pos 113000000
+processing pos 114000000
+processing pos 115000000
+processing pos 116000000
+processing pos 117000000
+processing pos 118000000
+processing pos 119000000
+processing pos 120000000
+processing pos 121000000
+processing pos 122000000
+rm: cannot remove 'crosscoal/CCW_CCE_2.chr_4_POPmask.list': No such file or directory
+rm: cannot remove 'crosscoal/CCW_CCE_2.chr_4_POPvcf.list': No such file or directory
+generating msmc input file with 8 haplotypes
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2021__Cuckoo_Resequencing/demography/mappability/masks//GCA_017976375.1_chr_4.mask.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/neutral-sites_cuckoo__intergenic-intron-4fold.bed
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/119_CC_UNK_ENG_F_chr_4.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/134_CC_UNK_ENG_M_chr_4.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/142_CC_UNK_RUS_M_chr_4.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/260_CC_SRT_RUS_F_chr_4.bed.gz
+adding negative mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/GCA_017976375.1_bCucCan1.pri_genomic.CHR.AvianRepeatModeler_Repeats-ExcludingLowComplexity-SimpleRepeats.bed
+processing pos 1000000
+processing pos 2000000
+processing pos 3000000
+processing pos 4000000
+processing pos 5000000
+processing pos 6000000
+processing pos 7000000
+processing pos 8000000
+processing pos 9000000
+processing pos 10000000
+processing pos 11000000
+processing pos 12000000
+processing pos 13000000
+processing pos 14000000
+processing pos 15000000
+processing pos 16000000
+processing pos 17000000
+processing pos 18000000
+processing pos 19000000
+processing pos 20000000
+processing pos 21000000
+processing pos 22000000
+processing pos 23000000
+processing pos 24000000
+processing pos 25000000
+processing pos 26000000
+processing pos 27000000
+processing pos 28000000
+processing pos 29000000
+processing pos 30000000
+processing pos 31000000
+processing pos 32000000
+processing pos 33000000
+processing pos 34000000
+processing pos 35000000
+processing pos 36000000
+processing pos 37000000
+processing pos 38000000
+processing pos 39000000
+processing pos 40000000
+processing pos 41000000
+processing pos 42000000
+processing pos 43000000
+processing pos 44000000
+processing pos 45000000
+processing pos 46000000
+processing pos 47000000
+processing pos 48000000
+processing pos 49000000
+processing pos 50000000
+processing pos 51000000
+processing pos 52000000
+processing pos 53000000
+processing pos 54000000
+processing pos 55000000
+processing pos 56000000
+processing pos 57000000
+processing pos 58000000
+processing pos 59000000
+processing pos 60000000
+processing pos 61000000
+processing pos 62000000
+processing pos 63000000
+processing pos 64000000
+processing pos 65000000
+processing pos 66000000
+processing pos 67000000
+processing pos 68000000
+processing pos 69000000
+processing pos 70000000
+processing pos 71000000
+processing pos 72000000
+processing pos 73000000
+processing pos 74000000
+processing pos 75000000
+processing pos 76000000
+processing pos 77000000
+processing pos 78000000
+processing pos 79000000
+rm: cannot remove 'crosscoal/CCW_CCE_2.chr_5_POPmask.list': No such file or directory
+rm: cannot remove 'crosscoal/CCW_CCE_2.chr_5_POPvcf.list': No such file or directory
+generating msmc input file with 8 haplotypes
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2021__Cuckoo_Resequencing/demography/mappability/masks//GCA_017976375.1_chr_5.mask.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/neutral-sites_cuckoo__intergenic-intron-4fold.bed
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/119_CC_UNK_ENG_F_chr_5.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/134_CC_UNK_ENG_M_chr_5.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/142_CC_UNK_RUS_M_chr_5.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/260_CC_SRT_RUS_F_chr_5.bed.gz
+adding negative mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/GCA_017976375.1_bCucCan1.pri_genomic.CHR.AvianRepeatModeler_Repeats-ExcludingLowComplexity-SimpleRepeats.bed
+processing pos 1000000
+processing pos 2000000
+processing pos 3000000
+processing pos 4000000
+processing pos 5000000
+processing pos 6000000
+processing pos 7000000
+processing pos 8000000
+processing pos 9000000
+processing pos 10000000
+processing pos 11000000
+processing pos 12000000
+processing pos 13000000
+processing pos 14000000
+processing pos 15000000
+processing pos 16000000
+processing pos 17000000
+processing pos 18000000
+processing pos 19000000
+processing pos 20000000
+processing pos 21000000
+processing pos 22000000
+processing pos 23000000
+processing pos 24000000
+processing pos 25000000
+processing pos 26000000
+processing pos 27000000
+processing pos 28000000
+processing pos 29000000
+processing pos 30000000
+processing pos 31000000
+processing pos 32000000
+processing pos 33000000
+processing pos 34000000
+processing pos 35000000
+processing pos 36000000
+processing pos 37000000
+processing pos 38000000
+processing pos 39000000
+processing pos 40000000
+processing pos 41000000
+processing pos 42000000
+processing pos 43000000
+processing pos 44000000
+processing pos 45000000
+processing pos 46000000
+processing pos 47000000
+processing pos 48000000
+processing pos 49000000
+processing pos 50000000
+processing pos 51000000
+processing pos 52000000
+processing pos 53000000
+processing pos 54000000
+processing pos 55000000
+processing pos 56000000
+processing pos 57000000
+processing pos 58000000
+processing pos 59000000
+processing pos 60000000
+processing pos 61000000
+processing pos 62000000
+processing pos 63000000
+processing pos 64000000
+processing pos 65000000
+processing pos 66000000
+processing pos 67000000
+processing pos 68000000
+processing pos 69000000
+rm: cannot remove 'crosscoal/CCW_CCE_2.chr_6_POPmask.list': No such file or directory
+rm: cannot remove 'crosscoal/CCW_CCE_2.chr_6_POPvcf.list': No such file or directory
+generating msmc input file with 8 haplotypes
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2021__Cuckoo_Resequencing/demography/mappability/masks//GCA_017976375.1_chr_6.mask.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/neutral-sites_cuckoo__intergenic-intron-4fold.bed
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/119_CC_UNK_ENG_F_chr_6.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/134_CC_UNK_ENG_M_chr_6.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/142_CC_UNK_RUS_M_chr_6.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/260_CC_SRT_RUS_F_chr_6.bed.gz
+adding negative mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/GCA_017976375.1_bCucCan1.pri_genomic.CHR.AvianRepeatModeler_Repeats-ExcludingLowComplexity-SimpleRepeats.bed
+processing pos 1000000
+processing pos 2000000
+processing pos 3000000
+processing pos 4000000
+processing pos 5000000
+processing pos 6000000
+processing pos 7000000
+processing pos 8000000
+processing pos 9000000
+processing pos 10000000
+processing pos 11000000
+processing pos 12000000
+processing pos 13000000
+processing pos 14000000
+processing pos 15000000
+processing pos 16000000
+processing pos 17000000
+processing pos 18000000
+processing pos 19000000
+processing pos 20000000
+processing pos 21000000
+processing pos 22000000
+processing pos 23000000
+processing pos 24000000
+processing pos 25000000
+processing pos 26000000
+processing pos 27000000
+processing pos 28000000
+processing pos 29000000
+processing pos 30000000
+processing pos 31000000
+processing pos 32000000
+processing pos 33000000
+processing pos 34000000
+processing pos 35000000
+processing pos 36000000
+processing pos 37000000
+processing pos 38000000
+processing pos 39000000
+processing pos 40000000
+processing pos 41000000
+processing pos 42000000
+processing pos 43000000
+rm: cannot remove 'crosscoal/CCW_CCE_2.chr_7_POPmask.list': No such file or directory
+rm: cannot remove 'crosscoal/CCW_CCE_2.chr_7_POPvcf.list': No such file or directory
+generating msmc input file with 8 haplotypes
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2021__Cuckoo_Resequencing/demography/mappability/masks//GCA_017976375.1_chr_7.mask.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/neutral-sites_cuckoo__intergenic-intron-4fold.bed
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/119_CC_UNK_ENG_F_chr_7.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/134_CC_UNK_ENG_M_chr_7.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/142_CC_UNK_RUS_M_chr_7.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/260_CC_SRT_RUS_F_chr_7.bed.gz
+adding negative mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/GCA_017976375.1_bCucCan1.pri_genomic.CHR.AvianRepeatModeler_Repeats-ExcludingLowComplexity-SimpleRepeats.bed
+processing pos 1000000
+processing pos 2000000
+processing pos 3000000
+processing pos 4000000
+processing pos 5000000
+processing pos 6000000
+processing pos 7000000
+processing pos 8000000
+processing pos 9000000
+processing pos 10000000
+processing pos 11000000
+processing pos 12000000
+processing pos 13000000
+processing pos 14000000
+processing pos 15000000
+processing pos 16000000
+processing pos 17000000
+processing pos 18000000
+processing pos 19000000
+processing pos 20000000
+processing pos 21000000
+processing pos 22000000
+processing pos 23000000
+processing pos 24000000
+processing pos 25000000
+processing pos 26000000
+processing pos 27000000
+processing pos 28000000
+processing pos 29000000
+processing pos 30000000
+processing pos 31000000
+processing pos 32000000
+processing pos 33000000
+processing pos 34000000
+processing pos 35000000
+processing pos 36000000
+processing pos 37000000
+processing pos 38000000
+processing pos 39000000
+rm: cannot remove 'crosscoal/CCW_CCE_2.chr_8_POPmask.list': No such file or directory
+rm: cannot remove 'crosscoal/CCW_CCE_2.chr_8_POPvcf.list': No such file or directory
+generating msmc input file with 8 haplotypes
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2021__Cuckoo_Resequencing/demography/mappability/masks//GCA_017976375.1_chr_8.mask.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/neutral-sites_cuckoo__intergenic-intron-4fold.bed
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/119_CC_UNK_ENG_F_chr_8.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/134_CC_UNK_ENG_M_chr_8.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/142_CC_UNK_RUS_M_chr_8.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/260_CC_SRT_RUS_F_chr_8.bed.gz
+adding negative mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/GCA_017976375.1_bCucCan1.pri_genomic.CHR.AvianRepeatModeler_Repeats-ExcludingLowComplexity-SimpleRepeats.bed
+processing pos 1000000
+processing pos 2000000
+processing pos 3000000
+processing pos 4000000
+processing pos 5000000
+processing pos 6000000
+processing pos 7000000
+processing pos 8000000
+processing pos 9000000
+processing pos 10000000
+processing pos 11000000
+processing pos 12000000
+processing pos 13000000
+processing pos 14000000
+processing pos 15000000
+processing pos 16000000
+processing pos 17000000
+processing pos 18000000
+processing pos 19000000
+processing pos 20000000
+processing pos 21000000
+processing pos 22000000
+processing pos 23000000
+processing pos 24000000
+processing pos 25000000
+processing pos 26000000
+processing pos 27000000
+processing pos 28000000
+processing pos 29000000
+processing pos 30000000
+processing pos 31000000
+processing pos 32000000
+processing pos 33000000
+processing pos 34000000
+rm: cannot remove 'crosscoal/CCW_CCE_2.chr_9_POPmask.list': No such file or directory
+rm: cannot remove 'crosscoal/CCW_CCE_2.chr_9_POPvcf.list': No such file or directory
+generating msmc input file with 8 haplotypes
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2021__Cuckoo_Resequencing/demography/mappability/masks//GCA_017976375.1_chr_9.mask.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/neutral-sites_cuckoo__intergenic-intron-4fold.bed
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/119_CC_UNK_ENG_F_chr_9.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/134_CC_UNK_ENG_M_chr_9.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/142_CC_UNK_RUS_M_chr_9.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/260_CC_SRT_RUS_F_chr_9.bed.gz
+adding negative mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/GCA_017976375.1_bCucCan1.pri_genomic.CHR.AvianRepeatModeler_Repeats-ExcludingLowComplexity-SimpleRepeats.bed
+processing pos 1000000
+processing pos 2000000
+processing pos 3000000
+processing pos 4000000
+processing pos 5000000
+processing pos 6000000
+processing pos 7000000
+processing pos 8000000
+processing pos 9000000
+processing pos 10000000
+processing pos 11000000
+processing pos 12000000
+processing pos 13000000
+processing pos 14000000
+processing pos 15000000
+processing pos 16000000
+processing pos 17000000
+processing pos 18000000
+processing pos 19000000
+processing pos 20000000
+processing pos 21000000
+processing pos 22000000
+processing pos 23000000
+processing pos 24000000
+processing pos 25000000
+processing pos 26000000
+processing pos 27000000
+processing pos 28000000
+rm: cannot remove 'crosscoal/CCW_CCE_2.chr_10_POPmask.list': No such file or directory
+rm: cannot remove 'crosscoal/CCW_CCE_2.chr_10_POPvcf.list': No such file or directory
+generating msmc input file with 8 haplotypes
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2021__Cuckoo_Resequencing/demography/mappability/masks//GCA_017976375.1_chr_10.mask.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/neutral-sites_cuckoo__intergenic-intron-4fold.bed
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/119_CC_UNK_ENG_F_chr_10.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/134_CC_UNK_ENG_M_chr_10.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/142_CC_UNK_RUS_M_chr_10.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/260_CC_SRT_RUS_F_chr_10.bed.gz
+adding negative mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/GCA_017976375.1_bCucCan1.pri_genomic.CHR.AvianRepeatModeler_Repeats-ExcludingLowComplexity-SimpleRepeats.bed
+processing pos 1000000
+processing pos 2000000
+processing pos 3000000
+processing pos 4000000
+processing pos 5000000
+processing pos 6000000
+processing pos 7000000
+processing pos 8000000
+processing pos 9000000
+processing pos 10000000
+processing pos 11000000
+processing pos 12000000
+processing pos 13000000
+processing pos 14000000
+processing pos 15000000
+processing pos 16000000
+processing pos 17000000
+processing pos 18000000
+processing pos 19000000
+processing pos 20000000
+processing pos 21000000
+processing pos 22000000
+processing pos 23000000
+rm: cannot remove 'crosscoal/CCW_CCE_2.chr_11_POPmask.list': No such file or directory
+rm: cannot remove 'crosscoal/CCW_CCE_2.chr_11_POPvcf.list': No such file or directory
+generating msmc input file with 8 haplotypes
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2021__Cuckoo_Resequencing/demography/mappability/masks//GCA_017976375.1_chr_11.mask.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/neutral-sites_cuckoo__intergenic-intron-4fold.bed
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/119_CC_UNK_ENG_F_chr_11.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/134_CC_UNK_ENG_M_chr_11.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/142_CC_UNK_RUS_M_chr_11.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/260_CC_SRT_RUS_F_chr_11.bed.gz
+adding negative mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/GCA_017976375.1_bCucCan1.pri_genomic.CHR.AvianRepeatModeler_Repeats-ExcludingLowComplexity-SimpleRepeats.bed
+processing pos 1000000
+processing pos 2000000
+processing pos 3000000
+processing pos 4000000
+processing pos 5000000
+processing pos 6000000
+processing pos 7000000
+processing pos 8000000
+processing pos 9000000
+processing pos 10000000
+processing pos 11000000
+processing pos 12000000
+processing pos 13000000
+processing pos 14000000
+processing pos 15000000
+processing pos 16000000
+processing pos 17000000
+processing pos 18000000
+processing pos 19000000
+processing pos 20000000
+processing pos 21000000
+processing pos 22000000
+rm: cannot remove 'crosscoal/CCW_CCE_2.chr_12_POPmask.list': No such file or directory
+rm: cannot remove 'crosscoal/CCW_CCE_2.chr_12_POPvcf.list': No such file or directory
+generating msmc input file with 8 haplotypes
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2021__Cuckoo_Resequencing/demography/mappability/masks//GCA_017976375.1_chr_12.mask.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/neutral-sites_cuckoo__intergenic-intron-4fold.bed
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/119_CC_UNK_ENG_F_chr_12.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/134_CC_UNK_ENG_M_chr_12.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/142_CC_UNK_RUS_M_chr_12.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/260_CC_SRT_RUS_F_chr_12.bed.gz
+adding negative mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/GCA_017976375.1_bCucCan1.pri_genomic.CHR.AvianRepeatModeler_Repeats-ExcludingLowComplexity-SimpleRepeats.bed
+processing pos 1000000
+processing pos 2000000
+processing pos 3000000
+processing pos 4000000
+processing pos 5000000
+processing pos 6000000
+processing pos 7000000
+processing pos 8000000
+processing pos 9000000
+processing pos 10000000
+processing pos 11000000
+processing pos 12000000
+processing pos 13000000
+processing pos 14000000
+processing pos 15000000
+processing pos 16000000
+processing pos 17000000
+processing pos 18000000
+processing pos 19000000
+processing pos 20000000
+processing pos 21000000
+processing pos 22000000
+rm: cannot remove 'crosscoal/CCW_CCE_2.chr_13_POPmask.list': No such file or directory
+rm: cannot remove 'crosscoal/CCW_CCE_2.chr_13_POPvcf.list': No such file or directory
+generating msmc input file with 8 haplotypes
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2021__Cuckoo_Resequencing/demography/mappability/masks//GCA_017976375.1_chr_13.mask.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/neutral-sites_cuckoo__intergenic-intron-4fold.bed
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/119_CC_UNK_ENG_F_chr_13.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/134_CC_UNK_ENG_M_chr_13.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/142_CC_UNK_RUS_M_chr_13.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/260_CC_SRT_RUS_F_chr_13.bed.gz
+adding negative mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/GCA_017976375.1_bCucCan1.pri_genomic.CHR.AvianRepeatModeler_Repeats-ExcludingLowComplexity-SimpleRepeats.bed
+processing pos 1000000
+processing pos 2000000
+processing pos 3000000
+processing pos 4000000
+processing pos 5000000
+processing pos 6000000
+processing pos 7000000
+processing pos 8000000
+processing pos 9000000
+processing pos 10000000
+processing pos 11000000
+processing pos 12000000
+processing pos 13000000
+processing pos 14000000
+processing pos 15000000
+processing pos 16000000
+processing pos 17000000
+processing pos 18000000
+processing pos 19000000
+processing pos 20000000
+processing pos 21000000
+rm: cannot remove 'crosscoal/CCW_CCE_2.chr_14_POPmask.list': No such file or directory
+rm: cannot remove 'crosscoal/CCW_CCE_2.chr_14_POPvcf.list': No such file or directory
+generating msmc input file with 8 haplotypes
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2021__Cuckoo_Resequencing/demography/mappability/masks//GCA_017976375.1_chr_14.mask.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/neutral-sites_cuckoo__intergenic-intron-4fold.bed
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/119_CC_UNK_ENG_F_chr_14.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/134_CC_UNK_ENG_M_chr_14.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/142_CC_UNK_RUS_M_chr_14.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/260_CC_SRT_RUS_F_chr_14.bed.gz
+adding negative mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/GCA_017976375.1_bCucCan1.pri_genomic.CHR.AvianRepeatModeler_Repeats-ExcludingLowComplexity-SimpleRepeats.bed
+processing pos 1000000
+processing pos 2000000
+processing pos 3000000
+processing pos 4000000
+processing pos 5000000
+processing pos 6000000
+processing pos 7000000
+processing pos 8000000
+processing pos 9000000
+processing pos 10000000
+processing pos 11000000
+processing pos 12000000
+processing pos 13000000
+processing pos 14000000
+processing pos 15000000
+processing pos 16000000
+processing pos 17000000
+processing pos 18000000
+processing pos 19000000
+processing pos 20000000
+rm: cannot remove 'crosscoal/CCW_CCE_2.chr_15_POPmask.list': No such file or directory
+rm: cannot remove 'crosscoal/CCW_CCE_2.chr_15_POPvcf.list': No such file or directory
+generating msmc input file with 8 haplotypes
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2021__Cuckoo_Resequencing/demography/mappability/masks//GCA_017976375.1_chr_15.mask.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/neutral-sites_cuckoo__intergenic-intron-4fold.bed
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/119_CC_UNK_ENG_F_chr_15.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/134_CC_UNK_ENG_M_chr_15.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/142_CC_UNK_RUS_M_chr_15.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/260_CC_SRT_RUS_F_chr_15.bed.gz
+adding negative mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/GCA_017976375.1_bCucCan1.pri_genomic.CHR.AvianRepeatModeler_Repeats-ExcludingLowComplexity-SimpleRepeats.bed
+processing pos 1000000
+processing pos 2000000
+processing pos 3000000
+processing pos 4000000
+processing pos 5000000
+processing pos 6000000
+processing pos 7000000
+processing pos 8000000
+processing pos 9000000
+processing pos 10000000
+processing pos 11000000
+processing pos 12000000
+processing pos 13000000
+processing pos 14000000
+processing pos 15000000
+processing pos 16000000
+processing pos 17000000
+processing pos 18000000
+rm: cannot remove 'crosscoal/CCW_CCE_2.chr_16_POPmask.list': No such file or directory
+rm: cannot remove 'crosscoal/CCW_CCE_2.chr_16_POPvcf.list': No such file or directory
+generating msmc input file with 8 haplotypes
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2021__Cuckoo_Resequencing/demography/mappability/masks//GCA_017976375.1_chr_16.mask.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/neutral-sites_cuckoo__intergenic-intron-4fold.bed
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/119_CC_UNK_ENG_F_chr_16.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/134_CC_UNK_ENG_M_chr_16.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/142_CC_UNK_RUS_M_chr_16.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/260_CC_SRT_RUS_F_chr_16.bed.gz
+adding negative mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/GCA_017976375.1_bCucCan1.pri_genomic.CHR.AvianRepeatModeler_Repeats-ExcludingLowComplexity-SimpleRepeats.bed
+processing pos 1000000
+processing pos 2000000
+processing pos 3000000
+processing pos 4000000
+processing pos 5000000
+processing pos 6000000
+processing pos 7000000
+processing pos 8000000
+processing pos 9000000
+processing pos 10000000
+processing pos 11000000
+processing pos 12000000
+processing pos 13000000
+processing pos 14000000
+processing pos 15000000
+processing pos 16000000
+processing pos 17000000
+processing pos 18000000
+rm: cannot remove 'crosscoal/CCW_CCE_2.chr_17_POPmask.list': No such file or directory
+rm: cannot remove 'crosscoal/CCW_CCE_2.chr_17_POPvcf.list': No such file or directory
+generating msmc input file with 8 haplotypes
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2021__Cuckoo_Resequencing/demography/mappability/masks//GCA_017976375.1_chr_17.mask.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/neutral-sites_cuckoo__intergenic-intron-4fold.bed
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/119_CC_UNK_ENG_F_chr_17.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/134_CC_UNK_ENG_M_chr_17.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/142_CC_UNK_RUS_M_chr_17.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/260_CC_SRT_RUS_F_chr_17.bed.gz
+adding negative mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/GCA_017976375.1_bCucCan1.pri_genomic.CHR.AvianRepeatModeler_Repeats-ExcludingLowComplexity-SimpleRepeats.bed
+processing pos 1000000
+processing pos 2000000
+processing pos 3000000
+processing pos 4000000
+processing pos 5000000
+processing pos 6000000
+processing pos 7000000
+processing pos 8000000
+processing pos 9000000
+processing pos 10000000
+processing pos 11000000
+processing pos 12000000
+processing pos 13000000
+processing pos 14000000
+processing pos 15000000
+rm: cannot remove 'crosscoal/CCW_CCE_2.chr_18_POPmask.list': No such file or directory
+rm: cannot remove 'crosscoal/CCW_CCE_2.chr_18_POPvcf.list': No such file or directory
+generating msmc input file with 8 haplotypes
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2021__Cuckoo_Resequencing/demography/mappability/masks//GCA_017976375.1_chr_18.mask.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/neutral-sites_cuckoo__intergenic-intron-4fold.bed
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/119_CC_UNK_ENG_F_chr_18.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/134_CC_UNK_ENG_M_chr_18.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/142_CC_UNK_RUS_M_chr_18.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/260_CC_SRT_RUS_F_chr_18.bed.gz
+adding negative mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/GCA_017976375.1_bCucCan1.pri_genomic.CHR.AvianRepeatModeler_Repeats-ExcludingLowComplexity-SimpleRepeats.bed
+processing pos 1000000
+processing pos 2000000
+processing pos 3000000
+processing pos 4000000
+processing pos 5000000
+processing pos 6000000
+processing pos 7000000
+processing pos 8000000
+processing pos 9000000
+processing pos 10000000
+processing pos 11000000
+processing pos 12000000
+processing pos 13000000
+rm: cannot remove 'crosscoal/CCW_CCE_2.chr_19_POPmask.list': No such file or directory
+rm: cannot remove 'crosscoal/CCW_CCE_2.chr_19_POPvcf.list': No such file or directory
+generating msmc input file with 8 haplotypes
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2021__Cuckoo_Resequencing/demography/mappability/masks//GCA_017976375.1_chr_19.mask.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/neutral-sites_cuckoo__intergenic-intron-4fold.bed
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/119_CC_UNK_ENG_F_chr_19.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/134_CC_UNK_ENG_M_chr_19.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/142_CC_UNK_RUS_M_chr_19.bed.gz
+adding mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks/260_CC_SRT_RUS_F_chr_19.bed.gz
+adding negative mask: /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/GCA_017976375.1_bCucCan1.pri_genomic.CHR.AvianRepeatModeler_Repeats-ExcludingLowComplexity-SimpleRepeats.bed
+processing pos 1000000
+processing pos 2000000
+processing pos 3000000
+processing pos 4000000
+processing pos 5000000
+processing pos 6000000
+processing pos 7000000
+processing pos 8000000
+processing pos 9000000
+processing pos 10000000
+processing pos 11000000
+processing pos 12000000
+rm: cannot remove 'crosscoal/CCW_CCE_2.chr_20_POPmask.list': No such file or directory
+rm: cannot remove 'crosscoal/CCW_CCE_2.chr_20_POPvcf.list': No such file or directory
+generating msmc input file with 8 haplotypes
+Traceback (most recent call last):
+  File "/dss/dsshome1/lxc07/di39dux/modules/msmc-tools/generate_multihetsep.py", line 195, in <module>
+    joinedVcfIterator = JoinedVcfIterator(args.files, trios)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/dss/dsshome1/lxc07/di39dux/modules/msmc-tools/generate_multihetsep.py", line 130, in __init__
+    self.vcfIterators = [VcfIterator(f) for f in filenames]
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/dss/dsshome1/lxc07/di39dux/modules/msmc-tools/generate_multihetsep.py", line 130, in <listcomp>
+    self.vcfIterators = [VcfIterator(f) for f in filenames]
+                         ^^^^^^^^^^^^^^
+  File "/dss/dsshome1/lxc07/di39dux/modules/msmc-tools/generate_multihetsep.py", line 55, in __init__
+    self.file = io.TextIOWrapper(gzip.open(filename, "r"))
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/dss/dsshome1/lxc07/di39dux/mambaforge/envs/samtools0.1.19/lib/python3.11/gzip.py", line 58, in open
+    binary_file = GzipFile(filename, gz_mode, compresslevel)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/dss/dsshome1/lxc07/di39dux/mambaforge/envs/samtools0.1.19/lib/python3.11/gzip.py", line 174, in __init__
+    fileobj = self.myfileobj = builtins.open(filename, mode or 'rb')
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/individual_vcfs/119_CC_UNK_ENG_F_chr_20.vcf.gz'
+read 258731 SNPs from file crosscoal/input/CCW_CCE_2_chr_10.multihetsep.txt, using indices [[0, 1], [0, 2], [0, 3], [1, 2], [1, 3], [2, 3]]
+read 266955 SNPs from file crosscoal/input/CCW_CCE_2_chr_11.multihetsep.txt, using indices [[0, 1], [0, 2], [0, 3], [1, 2], [1, 3], [2, 3]]
+read 237998 SNPs from file crosscoal/input/CCW_CCE_2_chr_12.multihetsep.txt, using indices [[0, 1], [0, 2], [0, 3], [1, 2], [1, 3], [2, 3]]
+read 247716 SNPs from file crosscoal/input/CCW_CCE_2_chr_13.multihetsep.txt, using indices [[0, 1], [0, 2], [0, 3], [1, 2], [1, 3], [2, 3]]
+read 245134 SNPs from file crosscoal/input/CCW_CCE_2_chr_14.multihetsep.txt, using indices [[0, 1], [0, 2], [0, 3], [1, 2], [1, 3], [2, 3]]
+read 202400 SNPs from file crosscoal/input/CCW_CCE_2_chr_15.multihetsep.txt, using indices [[0, 1], [0, 2], [0, 3], [1, 2], [1, 3], [2, 3]]
+read 191918 SNPs from file crosscoal/input/CCW_CCE_2_chr_16.multihetsep.txt, using indices [[0, 1], [0, 2], [0, 3], [1, 2], [1, 3], [2, 3]]
+read 168634 SNPs from file crosscoal/input/CCW_CCE_2_chr_17.multihetsep.txt, using indices [[0, 1], [0, 2], [0, 3], [1, 2], [1, 3], [2, 3]]
+read 126268 SNPs from file crosscoal/input/CCW_CCE_2_chr_18.multihetsep.txt, using indices [[0, 1], [0, 2], [0, 3], [1, 2], [1, 3], [2, 3]]
+read 152479 SNPs from file crosscoal/input/CCW_CCE_2_chr_19.multihetsep.txt, using indices [[0, 1], [0, 2], [0, 3], [1, 2], [1, 3], [2, 3]]
+read 2296128 SNPs from file crosscoal/input/CCW_CCE_2_chr_1.multihetsep.txt, using indices [[0, 1], [0, 2], [0, 3], [1, 2], [1, 3], [2, 3]]
+read 0 SNPs from file crosscoal/input/CCW_CCE_2_chr_20.multihetsep.txt, using indices [[0, 1], [0, 2], [0, 3], [1, 2], [1, 3], [2, 3]]
+read 1629063 SNPs from file crosscoal/input/CCW_CCE_2_chr_2.multihetsep.txt, using indices [[0, 1], [0, 2], [0, 3], [1, 2], [1, 3], [2, 3]]
+read 1334374 SNPs from file crosscoal/input/CCW_CCE_2_chr_3.multihetsep.txt, using indices [[0, 1], [0, 2], [0, 3], [1, 2], [1, 3], [2, 3]]
+read 834901 SNPs from file crosscoal/input/CCW_CCE_2_chr_4.multihetsep.txt, using indices [[0, 1], [0, 2], [0, 3], [1, 2], [1, 3], [2, 3]]
+read 615134 SNPs from file crosscoal/input/CCW_CCE_2_chr_5.multihetsep.txt, using indices [[0, 1], [0, 2], [0, 3], [1, 2], [1, 3], [2, 3]]
+read 449732 SNPs from file crosscoal/input/CCW_CCE_2_chr_6.multihetsep.txt, using indices [[0, 1], [0, 2], [0, 3], [1, 2], [1, 3], [2, 3]]
+read 423661 SNPs from file crosscoal/input/CCW_CCE_2_chr_7.multihetsep.txt, using indices [[0, 1], [0, 2], [0, 3], [1, 2], [1, 3], [2, 3]]
+read 335737 SNPs from file crosscoal/input/CCW_CCE_2_chr_8.multihetsep.txt, using indices [[0, 1], [0, 2], [0, 3], [1, 2], [1, 3], [2, 3]]
+read 334793 SNPs from file crosscoal/input/CCW_CCE_2_chr_9.multihetsep.txt, using indices [[0, 1], [0, 2], [0, 3], [1, 2], [1, 3], [2, 3]]
+estimating mutation rate: 0.00239511
+Version:                       2.1.4
+input files:                   ["crosscoal/input/CCW_CCE_2_chr_10.multihetsep.txt", "crosscoal/input/CCW_CCE_2_chr_11.multihetsep.txt", "crosscoal/input/CCW_CCE_2_chr_12.multihetsep.txt", "crosscoal/input/CCW_CCE_2_chr_13.multihetsep.txt", "crosscoal/input/CCW_CCE_2_chr_14.multihetsep.txt", "crosscoal/input/CCW_CCE_2_chr_15.multihetsep.txt", "crosscoal/input/CCW_CCE_2_chr_16.multihetsep.txt", "crosscoal/input/CCW_CCE_2_chr_17.multihetsep.txt", "crosscoal/input/CCW_CCE_2_chr_18.multihetsep.txt", "crosscoal/input/CCW_CCE_2_chr_19.multihetsep.txt", "crosscoal/input/CCW_CCE_2_chr_1.multihetsep.txt", "crosscoal/input/CCW_CCE_2_chr_20.multihetsep.txt", "crosscoal/input/CCW_CCE_2_chr_2.multihetsep.txt", "crosscoal/input/CCW_CCE_2_chr_3.multihetsep.txt", "crosscoal/input/CCW_CCE_2_chr_4.multihetsep.txt", "crosscoal/input/CCW_CCE_2_chr_5.multihetsep.txt", "crosscoal/input/CCW_CCE_2_chr_6.multihetsep.txt", "crosscoal/input/CCW_CCE_2_chr_7.multihetsep.txt", "crosscoal/input/CCW_CCE_2_chr_8.multihetsep.txt", "crosscoal/input/CCW_CCE_2_chr_9.multihetsep.txt"]
+maxIterations:                 20
+mutationRate:                  0.00239511
+recombinationRate:             0.000598779
+timeSegmentPattern:            [2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2]
+nrThreads:                     15
+outFilePrefix:                 crosscoal/output/CCW_CCE_2_msmc_FIRST
+hmmStrideWidth:                1000
+fixedRecombination:            false
+initialLambdaVec:              []
+skipAmbiguous:                 false
+pairIndices:                   [[0, 1], [0, 2], [0, 3], [1, 2], [1, 3], [2, 3]]
+logging information written to crosscoal/output/CCW_CCE_2_msmc_FIRST.log
+loop information written to    crosscoal/output/CCW_CCE_2_msmc_FIRST.loop.txt
+final results written to       crosscoal/output/CCW_CCE_2_msmc_FIRST.final.txt
+time factor:                   1
+[1/20] Baumwelch iteration
+  * [2/120] Expectation Step  * [6/120] Expectation Step  * [14/120] Expectation Step  * [1/120] Expectation Step  * [7/120] Expectation Step  * [8/120] Expectation Step  * [9/120] Expectation Step  * [11/120] Expectation Step  * [10/120] Expectation Step  * [12/120] Expectation Step  * [3/120] Expectation Step  * [4/120] Expectation Step  * [16/120] Expectation Step  * [5/120] Expectation Step  * [15/120] Expectation Step  * [13/120] Expectation Step  * [17/120] Expectation Step  * [18/120] Expectation Step  * [19/120] Expectation Step  * [20/120] Expectation Step  * [21/120] Expectation Step  * [22/120] Expectation Step  * [23/120] Expectation Step  * [24/120] Expectation Step  * [25/120] Expectation Step  * [26/120] Expectation Step  * [27/120] Expectation Step  * [28/120] Expectation Step  * [29/120] Expectation Step  * [30/120] Expectation Step  * [31/120] Expectation Step  * [32/120] Expectation Step  * [33/120] Expectation Step  * [34/120] Expectation Step  * [35/120] Expectation Step  * [36/120] Expectation Step  * [37/120] Expectation Step  * [38/120] Expectation Step  * [39/120] Expectation Step  * [40/120] Expectation Step  * [41/120] Expectation Step  * [42/120] Expectation Step  * [43/120] Expectation Step  * [44/120] Expectation Step  * [45/120] Expectation Step  * [46/120] Expectation Step  * [47/120] Expectation Step  * [48/120] Expectation Step  * [49/120] Expectation Step  * [50/120] Expectation Step  * [51/120] Expectation Step  * [52/120] Expectation Step  * [53/120] Expectation Step  * [54/120] Expectation Step  * [55/120] Expectation Step  * [56/120] Expectation Step  * [57/120] Expectation Step  * [58/120] Expectation Step  * [59/120] Expectation Step  * [60/120] Expectation Step  * [61/120] Expectation Step  * [62/120] Expectation Step  * [63/120] Expectation Step  * [64/120] Expectation Step  * [65/120] Expectation Step  * [66/120] Expectation Step  * [67/120] Expectation Stepcore.exception.ArrayIndexError@model/psmc_hmm.d(124): index [0] is out of bounds for array of length 0
+----------------
+??:? _d_arraybounds_indexp [0x562b9fa84371]
+??:? void model.psmc_hmm.PSMC_hmm.runForward() [0x562b9f9f6d09]
+??:? std.typecons.Tuple!(double[][], double[][2], double).Tuple expectation_step.singleChromosomeExpectation(in model.data.SegSite_t[], ulong, in model.propagation_core.PropagationCore) [0x562b9fa2ce93]
+??:? int expectation_step.getExpectation(in model.data.SegSite_t[][], model.psmc_model.PSMCmodel, ulong, ulong).__foreachbody13(ulong, ref const(model.data.SegSite_t[])) [0x562b9fa2ccb0]
+??:? void std.parallelism.ParallelForeach!(const(model.data.SegSite_t[])[]).ParallelForeach.opApply(scope int delegate(ulong, ref const(model.data.SegSite_t[]))).doIt() [0x562b9f9d86ae]
+??:? void std.parallelism.run!(void delegate()).run(void delegate()) [0x562b9fa91ea7]
+??:? void std.parallelism.Task!(std.parallelism.run, void delegate()).Task.impl(void*) [0x562b9fa91987]
+??:? void std.parallelism.AbstractTask.job() [0x562b9fac29b2]
+??:? void std.parallelism.TaskPool.doJob(std.parallelism.AbstractTask*) [0x562b9fa904af]
+??:? void std.parallelism.TaskPool.executeWorkLoop() [0x562b9fa9061e]
+??:? void std.parallelism.TaskPool.startWorkLoop() [0x562b9fa905c7]
+??:? void core.thread.context.Callable.opCall() [0x562b9fab24fc]
+??:? thread_entryPoint [0x562b9fab1fda]
+??:? [0x1500d17d26e9]
+??:? clone [0x1500d157950e]
+read 258731 SNPs from file crosscoal/input/CCW_CCE_2_chr_10.multihetsep.txt, using indices [[4, 5], [4, 6], [4, 7], [5, 6], [5, 7], [6, 7]]
+read 266955 SNPs from file crosscoal/input/CCW_CCE_2_chr_11.multihetsep.txt, using indices [[4, 5], [4, 6], [4, 7], [5, 6], [5, 7], [6, 7]]
+read 237998 SNPs from file crosscoal/input/CCW_CCE_2_chr_12.multihetsep.txt, using indices [[4, 5], [4, 6], [4, 7], [5, 6], [5, 7], [6, 7]]
+read 247716 SNPs from file crosscoal/input/CCW_CCE_2_chr_13.multihetsep.txt, using indices [[4, 5], [4, 6], [4, 7], [5, 6], [5, 7], [6, 7]]
+read 245134 SNPs from file crosscoal/input/CCW_CCE_2_chr_14.multihetsep.txt, using indices [[4, 5], [4, 6], [4, 7], [5, 6], [5, 7], [6, 7]]
+read 202400 SNPs from file crosscoal/input/CCW_CCE_2_chr_15.multihetsep.txt, using indices [[4, 5], [4, 6], [4, 7], [5, 6], [5, 7], [6, 7]]
+read 191918 SNPs from file crosscoal/input/CCW_CCE_2_chr_16.multihetsep.txt, using indices [[4, 5], [4, 6], [4, 7], [5, 6], [5, 7], [6, 7]]
+read 168634 SNPs from file crosscoal/input/CCW_CCE_2_chr_17.multihetsep.txt, using indices [[4, 5], [4, 6], [4, 7], [5, 6], [5, 7], [6, 7]]
+read 126268 SNPs from file crosscoal/input/CCW_CCE_2_chr_18.multihetsep.txt, using indices [[4, 5], [4, 6], [4, 7], [5, 6], [5, 7], [6, 7]]
+read 152479 SNPs from file crosscoal/input/CCW_CCE_2_chr_19.multihetsep.txt, using indices [[4, 5], [4, 6], [4, 7], [5, 6], [5, 7], [6, 7]]
+read 2296128 SNPs from file crosscoal/input/CCW_CCE_2_chr_1.multihetsep.txt, using indices [[4, 5], [4, 6], [4, 7], [5, 6], [5, 7], [6, 7]]
+read 0 SNPs from file crosscoal/input/CCW_CCE_2_chr_20.multihetsep.txt, using indices [[4, 5], [4, 6], [4, 7], [5, 6], [5, 7], [6, 7]]
+read 1629063 SNPs from file crosscoal/input/CCW_CCE_2_chr_2.multihetsep.txt, using indices [[4, 5], [4, 6], [4, 7], [5, 6], [5, 7], [6, 7]]
+read 1334374 SNPs from file crosscoal/input/CCW_CCE_2_chr_3.multihetsep.txt, using indices [[4, 5], [4, 6], [4, 7], [5, 6], [5, 7], [6, 7]]
+read 834901 SNPs from file crosscoal/input/CCW_CCE_2_chr_4.multihetsep.txt, using indices [[4, 5], [4, 6], [4, 7], [5, 6], [5, 7], [6, 7]]
+read 615134 SNPs from file crosscoal/input/CCW_CCE_2_chr_5.multihetsep.txt, using indices [[4, 5], [4, 6], [4, 7], [5, 6], [5, 7], [6, 7]]
+read 449732 SNPs from file crosscoal/input/CCW_CCE_2_chr_6.multihetsep.txt, using indices [[4, 5], [4, 6], [4, 7], [5, 6], [5, 7], [6, 7]]
+read 423661 SNPs from file crosscoal/input/CCW_CCE_2_chr_7.multihetsep.txt, using indices [[4, 5], [4, 6], [4, 7], [5, 6], [5, 7], [6, 7]]
+read 335737 SNPs from file crosscoal/input/CCW_CCE_2_chr_8.multihetsep.txt, using indices [[4, 5], [4, 6], [4, 7], [5, 6], [5, 7], [6, 7]]
+read 334793 SNPs from file crosscoal/input/CCW_CCE_2_chr_9.multihetsep.txt, using indices [[4, 5], [4, 6], [4, 7], [5, 6], [5, 7], [6, 7]]
+estimating mutation rate: 0.00197674
+Version:                       2.1.4
+input files:                   ["crosscoal/input/CCW_CCE_2_chr_10.multihetsep.txt", "crosscoal/input/CCW_CCE_2_chr_11.multihetsep.txt", "crosscoal/input/CCW_CCE_2_chr_12.multihetsep.txt", "crosscoal/input/CCW_CCE_2_chr_13.multihetsep.txt", "crosscoal/input/CCW_CCE_2_chr_14.multihetsep.txt", "crosscoal/input/CCW_CCE_2_chr_15.multihetsep.txt", "crosscoal/input/CCW_CCE_2_chr_16.multihetsep.txt", "crosscoal/input/CCW_CCE_2_chr_17.multihetsep.txt", "crosscoal/input/CCW_CCE_2_chr_18.multihetsep.txt", "crosscoal/input/CCW_CCE_2_chr_19.multihetsep.txt", "crosscoal/input/CCW_CCE_2_chr_1.multihetsep.txt", "crosscoal/input/CCW_CCE_2_chr_20.multihetsep.txt", "crosscoal/input/CCW_CCE_2_chr_2.multihetsep.txt", "crosscoal/input/CCW_CCE_2_chr_3.multihetsep.txt", "crosscoal/input/CCW_CCE_2_chr_4.multihetsep.txt", "crosscoal/input/CCW_CCE_2_chr_5.multihetsep.txt", "crosscoal/input/CCW_CCE_2_chr_6.multihetsep.txt", "crosscoal/input/CCW_CCE_2_chr_7.multihetsep.txt", "crosscoal/input/CCW_CCE_2_chr_8.multihetsep.txt", "crosscoal/input/CCW_CCE_2_chr_9.multihetsep.txt"]
+maxIterations:                 20
+mutationRate:                  0.00197674
+recombinationRate:             0.000494186
+timeSegmentPattern:            [2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2]
+nrThreads:                     15
+outFilePrefix:                 crosscoal/output/CCW_CCE_2_msmc_SECOND
+hmmStrideWidth:                1000
+fixedRecombination:            false
+initialLambdaVec:              []
+skipAmbiguous:                 false
+pairIndices:                   [[4, 5], [4, 6], [4, 7], [5, 6], [5, 7], [6, 7]]
+logging information written to crosscoal/output/CCW_CCE_2_msmc_SECOND.log
+loop information written to    crosscoal/output/CCW_CCE_2_msmc_SECOND.loop.txt
+final results written to       crosscoal/output/CCW_CCE_2_msmc_SECOND.final.txt
+time factor:                   1
+[1/20] Baumwelch iteration
+  * [3/120] Expectation Step  * [1/120] Expectation Step  * [4/120] Expectation Step  * [2/120] Expectation Step  * [5/120] Expectation Step  * [16/120] Expectation Step  * [7/120] Expectation Step  * [9/120] Expectation Step  * [6/120] Expectation Step  * [12/120] Expectation Step  * [13/120] Expectation Step  * [10/120] Expectation Step  * [8/120] Expectation Step  * [14/120] Expectation Step  * [11/120] Expectation Step  * [15/120] Expectation Step  * [17/120] Expectation Step  * [18/120] Expectation Step  * [19/120] Expectation Step  * [20/120] Expectation Step  * [21/120] Expectation Step  * [22/120] Expectation Step  * [23/120] Expectation Step  * [24/120] Expectation Step  * [25/120] Expectation Step  * [26/120] Expectation Step  * [27/120] Expectation Step  * [28/120] Expectation Step  * [29/120] Expectation Step  * [30/120] Expectation Step  * [31/120] Expectation Step  * [32/120] Expectation Step  * [33/120] Expectation Step  * [34/120] Expectation Step  * [35/120] Expectation Step  * [36/120] Expectation Step  * [37/120] Expectation Step  * [38/120] Expectation Step  * [39/120] Expectation Step  * [40/120] Expectation Step  * [41/120] Expectation Step  * [42/120] Expectation Step  * [43/120] Expectation Step  * [44/120] Expectation Step  * [45/120] Expectation Step  * [46/120] Expectation Step  * [47/120] Expectation Step  * [48/120] Expectation Step  * [49/120] Expectation Step  * [50/120] Expectation Step  * [51/120] Expectation Step  * [52/120] Expectation Step  * [53/120] Expectation Step  * [54/120] Expectation Step  * [55/120] Expectation Step  * [56/120] Expectation Step  * [57/120] Expectation Step  * [58/120] Expectation Step  * [59/120] Expectation Step  * [60/120] Expectation Step  * [61/120] Expectation Step  * [62/120] Expectation Step  * [63/120] Expectation Step  * [64/120] Expectation Step  * [65/120] Expectation Step  * [66/120] Expectation Step  * [67/120] Expectation Stepcore.exception.ArrayIndexError@model/psmc_hmm.d(124): index [0] is out of bounds for array of length 0
+----------------
+??:? _d_arraybounds_indexp [0x55f3c9d30371]
+??:? void model.psmc_hmm.PSMC_hmm.runForward() [0x55f3c9ca2d09]
+??:? std.typecons.Tuple!(double[][], double[][2], double).Tuple expectation_step.singleChromosomeExpectation(in model.data.SegSite_t[], ulong, in model.propagation_core.PropagationCore) [0x55f3c9cd8e93]
+??:? int expectation_step.getExpectation(in model.data.SegSite_t[][], model.psmc_model.PSMCmodel, ulong, ulong).__foreachbody13(ulong, ref const(model.data.SegSite_t[])) [0x55f3c9cd8cb0]
+??:? void std.parallelism.ParallelForeach!(const(model.data.SegSite_t[])[]).ParallelForeach.opApply(scope int delegate(ulong, ref const(model.data.SegSite_t[]))).doIt() [0x55f3c9c846ae]
+??:? void std.parallelism.run!(void delegate()).run(void delegate()) [0x55f3c9d3dea7]
+??:? void std.parallelism.Task!(std.parallelism.run, void delegate()).Task.impl(void*) [0x55f3c9d3d987]
+??:? void std.parallelism.AbstractTask.job() [0x55f3c9d6e9b2]
+??:? void std.parallelism.TaskPool.doJob(std.parallelism.AbstractTask*) [0x55f3c9d3c4af]
+??:? void std.parallelism.TaskPool.executeWorkLoop() [0x55f3c9d3c61e]
+??:? void std.parallelism.TaskPool.startWorkLoop() [0x55f3c9d3c5c7]
+??:? void core.thread.context.Callable.opCall() [0x55f3c9d5e4fc]
+??:? thread_entryPoint [0x55f3c9d5dfda]
+??:? [0x14927bf056e9]
+??:? clone [0x14927bcac50e]
+read 258731 SNPs from file crosscoal/input/CCW_CCE_2_chr_10.multihetsep.txt, using indices [[0, 4], [0, 5], [0, 6], [0, 7], [1, 4], [1, 5], [1, 6], [1, 7], [2, 4], [2, 5], [2, 6], [2, 7], [3, 4], [3, 5], [3, 6], [3, 7]]
+read 266955 SNPs from file crosscoal/input/CCW_CCE_2_chr_11.multihetsep.txt, using indices [[0, 4], [0, 5], [0, 6], [0, 7], [1, 4], [1, 5], [1, 6], [1, 7], [2, 4], [2, 5], [2, 6], [2, 7], [3, 4], [3, 5], [3, 6], [3, 7]]
+read 237998 SNPs from file crosscoal/input/CCW_CCE_2_chr_12.multihetsep.txt, using indices [[0, 4], [0, 5], [0, 6], [0, 7], [1, 4], [1, 5], [1, 6], [1, 7], [2, 4], [2, 5], [2, 6], [2, 7], [3, 4], [3, 5], [3, 6], [3, 7]]
+read 247716 SNPs from file crosscoal/input/CCW_CCE_2_chr_13.multihetsep.txt, using indices [[0, 4], [0, 5], [0, 6], [0, 7], [1, 4], [1, 5], [1, 6], [1, 7], [2, 4], [2, 5], [2, 6], [2, 7], [3, 4], [3, 5], [3, 6], [3, 7]]
+read 245134 SNPs from file crosscoal/input/CCW_CCE_2_chr_14.multihetsep.txt, using indices [[0, 4], [0, 5], [0, 6], [0, 7], [1, 4], [1, 5], [1, 6], [1, 7], [2, 4], [2, 5], [2, 6], [2, 7], [3, 4], [3, 5], [3, 6], [3, 7]]
+read 202400 SNPs from file crosscoal/input/CCW_CCE_2_chr_15.multihetsep.txt, using indices [[0, 4], [0, 5], [0, 6], [0, 7], [1, 4], [1, 5], [1, 6], [1, 7], [2, 4], [2, 5], [2, 6], [2, 7], [3, 4], [3, 5], [3, 6], [3, 7]]
+read 191918 SNPs from file crosscoal/input/CCW_CCE_2_chr_16.multihetsep.txt, using indices [[0, 4], [0, 5], [0, 6], [0, 7], [1, 4], [1, 5], [1, 6], [1, 7], [2, 4], [2, 5], [2, 6], [2, 7], [3, 4], [3, 5], [3, 6], [3, 7]]
+read 168634 SNPs from file crosscoal/input/CCW_CCE_2_chr_17.multihetsep.txt, using indices [[0, 4], [0, 5], [0, 6], [0, 7], [1, 4], [1, 5], [1, 6], [1, 7], [2, 4], [2, 5], [2, 6], [2, 7], [3, 4], [3, 5], [3, 6], [3, 7]]
+read 126268 SNPs from file crosscoal/input/CCW_CCE_2_chr_18.multihetsep.txt, using indices [[0, 4], [0, 5], [0, 6], [0, 7], [1, 4], [1, 5], [1, 6], [1, 7], [2, 4], [2, 5], [2, 6], [2, 7], [3, 4], [3, 5], [3, 6], [3, 7]]
+read 152479 SNPs from file crosscoal/input/CCW_CCE_2_chr_19.multihetsep.txt, using indices [[0, 4], [0, 5], [0, 6], [0, 7], [1, 4], [1, 5], [1, 6], [1, 7], [2, 4], [2, 5], [2, 6], [2, 7], [3, 4], [3, 5], [3, 6], [3, 7]]
+read 2296128 SNPs from file crosscoal/input/CCW_CCE_2_chr_1.multihetsep.txt, using indices [[0, 4], [0, 5], [0, 6], [0, 7], [1, 4], [1, 5], [1, 6], [1, 7], [2, 4], [2, 5], [2, 6], [2, 7], [3, 4], [3, 5], [3, 6], [3, 7]]
+read 0 SNPs from file crosscoal/input/CCW_CCE_2_chr_20.multihetsep.txt, using indices [[0, 4], [0, 5], [0, 6], [0, 7], [1, 4], [1, 5], [1, 6], [1, 7], [2, 4], [2, 5], [2, 6], [2, 7], [3, 4], [3, 5], [3, 6], [3, 7]]
+read 1629063 SNPs from file crosscoal/input/CCW_CCE_2_chr_2.multihetsep.txt, using indices [[0, 4], [0, 5], [0, 6], [0, 7], [1, 4], [1, 5], [1, 6], [1, 7], [2, 4], [2, 5], [2, 6], [2, 7], [3, 4], [3, 5], [3, 6], [3, 7]]
+read 1334374 SNPs from file crosscoal/input/CCW_CCE_2_chr_3.multihetsep.txt, using indices [[0, 4], [0, 5], [0, 6], [0, 7], [1, 4], [1, 5], [1, 6], [1, 7], [2, 4], [2, 5], [2, 6], [2, 7], [3, 4], [3, 5], [3, 6], [3, 7]]
+read 834901 SNPs from file crosscoal/input/CCW_CCE_2_chr_4.multihetsep.txt, using indices [[0, 4], [0, 5], [0, 6], [0, 7], [1, 4], [1, 5], [1, 6], [1, 7], [2, 4], [2, 5], [2, 6], [2, 7], [3, 4], [3, 5], [3, 6], [3, 7]]
+read 615134 SNPs from file crosscoal/input/CCW_CCE_2_chr_5.multihetsep.txt, using indices [[0, 4], [0, 5], [0, 6], [0, 7], [1, 4], [1, 5], [1, 6], [1, 7], [2, 4], [2, 5], [2, 6], [2, 7], [3, 4], [3, 5], [3, 6], [3, 7]]
+read 449732 SNPs from file crosscoal/input/CCW_CCE_2_chr_6.multihetsep.txt, using indices [[0, 4], [0, 5], [0, 6], [0, 7], [1, 4], [1, 5], [1, 6], [1, 7], [2, 4], [2, 5], [2, 6], [2, 7], [3, 4], [3, 5], [3, 6], [3, 7]]
+read 423661 SNPs from file crosscoal/input/CCW_CCE_2_chr_7.multihetsep.txt, using indices [[0, 4], [0, 5], [0, 6], [0, 7], [1, 4], [1, 5], [1, 6], [1, 7], [2, 4], [2, 5], [2, 6], [2, 7], [3, 4], [3, 5], [3, 6], [3, 7]]
+read 335737 SNPs from file crosscoal/input/CCW_CCE_2_chr_8.multihetsep.txt, using indices [[0, 4], [0, 5], [0, 6], [0, 7], [1, 4], [1, 5], [1, 6], [1, 7], [2, 4], [2, 5], [2, 6], [2, 7], [3, 4], [3, 5], [3, 6], [3, 7]]
+read 334793 SNPs from file crosscoal/input/CCW_CCE_2_chr_9.multihetsep.txt, using indices [[0, 4], [0, 5], [0, 6], [0, 7], [1, 4], [1, 5], [1, 6], [1, 7], [2, 4], [2, 5], [2, 6], [2, 7], [3, 4], [3, 5], [3, 6], [3, 7]]
+estimating mutation rate: 0.00211416
+Version:                       2.1.4
+input files:                   ["crosscoal/input/CCW_CCE_2_chr_10.multihetsep.txt", "crosscoal/input/CCW_CCE_2_chr_11.multihetsep.txt", "crosscoal/input/CCW_CCE_2_chr_12.multihetsep.txt", "crosscoal/input/CCW_CCE_2_chr_13.multihetsep.txt", "crosscoal/input/CCW_CCE_2_chr_14.multihetsep.txt", "crosscoal/input/CCW_CCE_2_chr_15.multihetsep.txt", "crosscoal/input/CCW_CCE_2_chr_16.multihetsep.txt", "crosscoal/input/CCW_CCE_2_chr_17.multihetsep.txt", "crosscoal/input/CCW_CCE_2_chr_18.multihetsep.txt", "crosscoal/input/CCW_CCE_2_chr_19.multihetsep.txt", "crosscoal/input/CCW_CCE_2_chr_1.multihetsep.txt", "crosscoal/input/CCW_CCE_2_chr_20.multihetsep.txt", "crosscoal/input/CCW_CCE_2_chr_2.multihetsep.txt", "crosscoal/input/CCW_CCE_2_chr_3.multihetsep.txt", "crosscoal/input/CCW_CCE_2_chr_4.multihetsep.txt", "crosscoal/input/CCW_CCE_2_chr_5.multihetsep.txt", "crosscoal/input/CCW_CCE_2_chr_6.multihetsep.txt", "crosscoal/input/CCW_CCE_2_chr_7.multihetsep.txt", "crosscoal/input/CCW_CCE_2_chr_8.multihetsep.txt", "crosscoal/input/CCW_CCE_2_chr_9.multihetsep.txt"]
+maxIterations:                 20
+mutationRate:                  0.00211416
+recombinationRate:             0.000528541
+timeSegmentPattern:            [2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2]
+nrThreads:                     15
+outFilePrefix:                 crosscoal/output/CCW_CCE_2_msmc_ALLHAPS
+hmmStrideWidth:                1000
+fixedRecombination:            false
+initialLambdaVec:              []
+skipAmbiguous:                 true
+pairIndices:                   [[0, 4], [0, 5], [0, 6], [0, 7], [1, 4], [1, 5], [1, 6], [1, 7], [2, 4], [2, 5], [2, 6], [2, 7], [3, 4], [3, 5], [3, 6], [3, 7]]
+logging information written to crosscoal/output/CCW_CCE_2_msmc_ALLHAPS.log
+loop information written to    crosscoal/output/CCW_CCE_2_msmc_ALLHAPS.loop.txt
+final results written to       crosscoal/output/CCW_CCE_2_msmc_ALLHAPS.final.txt
+time factor:                   1
+[1/20] Baumwelch iteration
+  * [2/320] Expectation Step  * [1/320] Expectation Step  * [3/320] Expectation Step  * [13/320] Expectation Step  * [5/320] Expectation Step  * [6/320] Expectation Step  * [8/320] Expectation Step  * [7/320] Expectation Step  * [11/320] Expectation Step  * [9/320] Expectation Step  * [12/320] Expectation Step  * [4/320] Expectation Step  * [15/320] Expectation Step  * [14/320] Expectation Step  * [16/320] Expectation Step  * [10/320] Expectation Step  * [17/320] Expectation Step  * [20/320] Expectation Step  * [18/320] Expectation Step  * [19/320] Expectation Step  * [21/320] Expectation Step  * [22/320] Expectation Step  * [23/320] Expectation Step  * [24/320] Expectation Step  * [25/320] Expectation Step  * [26/320] Expectation Step  * [27/320] Expectation Step  * [28/320] Expectation Step  * [29/320] Expectation Step  * [30/320] Expectation Step  * [31/320] Expectation Step  * [32/320] Expectation Step  * [33/320] Expectation Step  * [34/320] Expectation Step  * [35/320] Expectation Step  * [36/320] Expectation Step  * [37/320] Expectation Step  * [38/320] Expectation Step  * [39/320] Expectation Step  * [40/320] Expectation Step  * [41/320] Expectation Step  * [42/320] Expectation Step  * [43/320] Expectation Step  * [44/320] Expectation Step  * [45/320] Expectation Step  * [46/320] Expectation Step  * [47/320] Expectation Step  * [48/320] Expectation Step  * [49/320] Expectation Step  * [50/320] Expectation Step  * [51/320] Expectation Step  * [52/320] Expectation Step  * [53/320] Expectation Step  * [54/320] Expectation Step  * [55/320] Expectation Step  * [56/320] Expectation Step  * [57/320] Expectation Step  * [58/320] Expectation Step  * [59/320] Expectation Step  * [60/320] Expectation Step  * [61/320] Expectation Step  * [62/320] Expectation Step  * [63/320] Expectation Step  * [64/320] Expectation Step  * [65/320] Expectation Step  * [66/320] Expectation Step  * [67/320] Expectation Step  * [68/320] Expectation Step  * [69/320] Expectation Step  * [70/320] Expectation Step  * [71/320] Expectation Step  * [72/320] Expectation Step  * [73/320] Expectation Step  * [74/320] Expectation Step  * [75/320] Expectation Step  * [76/320] Expectation Step  * [77/320] Expectation Step  * [78/320] Expectation Step  * [79/320] Expectation Step  * [80/320] Expectation Step  * [81/320] Expectation Step  * [82/320] Expectation Step  * [83/320] Expectation Step  * [84/320] Expectation Step  * [85/320] Expectation Step  * [86/320] Expectation Step  * [87/320] Expectation Step  * [88/320] Expectation Step  * [89/320] Expectation Step  * [90/320] Expectation Step  * [91/320] Expectation Step  * [92/320] Expectation Step  * [93/320] Expectation Step  * [94/320] Expectation Step  * [95/320] Expectation Step  * [96/320] Expectation Step  * [97/320] Expectation Step  * [98/320] Expectation Step  * [99/320] Expectation Step  * [100/320] Expectation Step  * [101/320] Expectation Step  * [102/320] Expectation Step  * [103/320] Expectation Step  * [104/320] Expectation Step  * [105/320] Expectation Step  * [106/320] Expectation Step  * [107/320] Expectation Step  * [108/320] Expectation Step  * [109/320] Expectation Step  * [110/320] Expectation Step  * [111/320] Expectation Step  * [112/320] Expectation Step  * [113/320] Expectation Step  * [114/320] Expectation Step  * [115/320] Expectation Step  * [116/320] Expectation Step  * [117/320] Expectation Step  * [118/320] Expectation Step  * [119/320] Expectation Step  * [120/320] Expectation Step  * [121/320] Expectation Step  * [122/320] Expectation Step  * [123/320] Expectation Step  * [124/320] Expectation Step  * [125/320] Expectation Step  * [126/320] Expectation Step  * [127/320] Expectation Step  * [128/320] Expectation Step  * [129/320] Expectation Step  * [130/320] Expectation Step  * [131/320] Expectation Step  * [132/320] Expectation Step  * [133/320] Expectation Step  * [134/320] Expectation Step  * [135/320] Expectation Step  * [136/320] Expectation Step  * [137/320] Expectation Step  * [138/320] Expectation Step  * [139/320] Expectation Step  * [140/320] Expectation Step  * [141/320] Expectation Step  * [142/320] Expectation Step  * [143/320] Expectation Step  * [144/320] Expectation Step  * [145/320] Expectation Step  * [146/320] Expectation Step  * [147/320] Expectation Step  * [148/320] Expectation Step  * [149/320] Expectation Step  * [150/320] Expectation Step  * [151/320] Expectation Step  * [152/320] Expectation Step  * [153/320] Expectation Step  * [154/320] Expectation Step  * [155/320] Expectation Step  * [156/320] Expectation Step  * [157/320] Expectation Step  * [158/320] Expectation Step  * [159/320] Expectation Step  * [160/320] Expectation Step  * [161/320] Expectation Step  * [162/320] Expectation Step  * [163/320] Expectation Step  * [164/320] Expectation Step  * [165/320] Expectation Step  * [166/320] Expectation Step  * [167/320] Expectation Step  * [168/320] Expectation Step  * [169/320] Expectation Step  * [170/320] Expectation Step  * [171/320] Expectation Step  * [172/320] Expectation Step  * [173/320] Expectation Step  * [174/320] Expectation Step  * [175/320] Expectation Step  * [176/320] Expectation Step  * [177/320] Expectation Stepcore.exception.ArrayIndexError@model/psmc_hmm.d(124): index [0] is out of bounds for array of length 0
+----------------
+??:? _d_arraybounds_indexp [0x555a63a45371]
+??:? void model.psmc_hmm.PSMC_hmm.runForward() [0x555a639b7d09]
+??:? std.typecons.Tuple!(double[][], double[][2], double).Tuple expectation_step.singleChromosomeExpectation(in model.data.SegSite_t[], ulong, in model.propagation_core.PropagationCore) [0x555a639ede93]
+??:? int expectation_step.getExpectation(in model.data.SegSite_t[][], model.psmc_model.PSMCmodel, ulong, ulong).__foreachbody13(ulong, ref const(model.data.SegSite_t[])) [0x555a639edcb0]
+??:? void std.parallelism.ParallelForeach!(const(model.data.SegSite_t[])[]).ParallelForeach.opApply(scope int delegate(ulong, ref const(model.data.SegSite_t[]))).doIt() [0x555a639996ae]
+??:? void std.parallelism.run!(void delegate()).run(void delegate()) [0x555a63a52ea7]
+??:? void std.parallelism.Task!(std.parallelism.run, void delegate()).Task.impl(void*) [0x555a63a52987]
+??:? void std.parallelism.AbstractTask.job() [0x555a63a839b2]
+??:? void std.parallelism.TaskPool.doJob(std.parallelism.AbstractTask*) [0x555a63a514af]
+??:? void std.parallelism.TaskPool.executeWorkLoop() [0x555a63a5161e]
+??:? void std.parallelism.TaskPool.startWorkLoop() [0x555a63a515c7]
+??:? void core.thread.context.Callable.opCall() [0x555a63a734fc]
+??:? thread_entryPoint [0x555a63a72fda]
+??:? [0x14962c2ec6e9]
+??:? clone [0x14962c09350e]
+Traceback (most recent call last):
+  File "/dss/dsshome1/lxc07/di39dux/modules/msmc-tools/combineCrossCoal.py", line 14, in <module>
+    cc = plot_utils.MSMCresult(args.crossCoalFile)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/dss/dsshome1/lxc07/di39dux/modules/msmc-tools/plot_utils.py", line 9, in __init__
+    f = open(filename, "r")
+        ^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'crosscoal/output/CCW_CCE_2_msmc_ALLHAPS.final.txt'
+Traceback (most recent call last):
+  File "/dss/dsshome1/lxc07/di39dux/modules/MSMC-IM/MSMC_IM.py", line 33, in <module>
+    time_lr_boundaries, msmc_lambdas00, msmc_lambdas01, msmc_lambdas11 = MSMC_IM_funcs.read_lambdas_from_MSMC(args.Input, args.mu) #time_lr_boundaries=[[left1,right1], []... []]
+                                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/dss/dsshome1/lxc07/di39dux/modules/MSMC-IM/MSMC_IM_funcs.py", line 17, in read_lambdas_from_MSMC
+    next(f)
+StopIteration
