@@ -1,0 +1,22 @@
+mkdir: cannot create directory ‘/dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/divergence’: File exists
+mkdir: cannot create directory ‘/dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/divergence/work’: File exists
+mkdir: cannot create directory ‘/dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/divergence/out’: File exists
+chr_29 working on 25000 window with 10000 missing sites max
+
+Starting 5 worker threads
+
+50 windows queued, 45 results received, 20 results written.
+
+70 windows queued, 65 results received, 39 results written.
+
+90 windows queued, 86 results received, 60 results written.
+
+121 windows queued, 117 results received, 81 results written.
+
+143 windows queued, 138 results received, 100 results written.
+
+Waiting for all threads to finish
+146 windows were tested.
+106 results were written.
+
+Done.

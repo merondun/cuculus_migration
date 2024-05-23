@@ -1,0 +1,4 @@
+mkdir: cannot create directory ‘/dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/divergence’: File exists
+mkdir: cannot create directory ‘/dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/divergence/work’: File exists
+mkdir: cannot create directory ‘/dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/divergence/out’: File exists
+chr_2 working on 25000 window with 10000 missing sites max

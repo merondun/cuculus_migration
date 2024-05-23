@@ -1,0 +1,78 @@
+mkdir: cannot create directory ‘/dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/divergence’: File exists
+mkdir: cannot create directory ‘/dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/divergence/work’: File exists
+mkdir: cannot create directory ‘/dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/divergence/out’: File exists
+chr_19 working on 25000 window with 10000 missing sites max
+
+Starting 5 worker threads
+
+19 windows queued, 14 results received, 13 results written.
+
+32 windows queued, 27 results received, 26 results written.
+
+47 windows queued, 44 results received, 43 results written.
+
+63 windows queued, 58 results received, 57 results written.
+
+78 windows queued, 73 results received, 72 results written.
+
+95 windows queued, 90 results received, 89 results written.
+
+111 windows queued, 106 results received, 105 results written.
+
+129 windows queued, 124 results received, 123 results written.
+
+146 windows queued, 141 results received, 140 results written.
+
+162 windows queued, 157 results received, 155 results written.
+
+178 windows queued, 173 results received, 171 results written.
+
+195 windows queued, 190 results received, 188 results written.
+
+211 windows queued, 206 results received, 204 results written.
+
+229 windows queued, 224 results received, 222 results written.
+
+246 windows queued, 241 results received, 239 results written.
+
+264 windows queued, 259 results received, 257 results written.
+
+282 windows queued, 277 results received, 274 results written.
+
+296 windows queued, 291 results received, 289 results written.
+
+310 windows queued, 305 results received, 303 results written.
+
+326 windows queued, 321 results received, 319 results written.
+
+340 windows queued, 335 results received, 333 results written.
+
+354 windows queued, 349 results received, 347 results written.
+
+369 windows queued, 364 results received, 362 results written.
+
+384 windows queued, 379 results received, 377 results written.
+
+400 windows queued, 395 results received, 393 results written.
+
+414 windows queued, 409 results received, 407 results written.
+
+434 windows queued, 429 results received, 424 results written.
+
+451 windows queued, 447 results received, 440 results written.
+
+467 windows queued, 462 results received, 455 results written.
+
+485 windows queued, 480 results received, 473 results written.
+
+504 windows queued, 500 results received, 493 results written.
+
+Waiting for all threads to finish
+/dss/dsshome1/lxc07/di39dux/modules/genomics_general/genomics.py:631: RuntimeWarning: invalid value encountered in scalar divide
+  D = d / np.sqrt(e1*S + e2*S*(S-1))
+/dss/dsshome1/lxc07/di39dux/modules/genomics_general/genomics.py:979: RuntimeWarning: invalid value encountered in scalar divide
+  output["Fst_" + pops[x] + "_" + pops[y]] = output["Fst_" + pops[y] + "_" + pops[x]] = 1 - pi_s/pi_t
+510 windows were tested.
+502 results were written.
+
+Done.

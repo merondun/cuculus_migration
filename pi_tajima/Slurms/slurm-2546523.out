@@ -1,0 +1,136 @@
+mkdir: cannot create directory ‘/dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/divergence’: File exists
+mkdir: cannot create directory ‘/dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/divergence/work’: File exists
+mkdir: cannot create directory ‘/dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/divergence/out’: File exists
+chr_12 working on 25000 window with 10000 missing sites max
+
+Starting 5 worker threads
+
+24 windows queued, 20 results received, 17 results written.
+
+41 windows queued, 36 results received, 32 results written.
+
+56 windows queued, 51 results received, 47 results written.
+
+69 windows queued, 64 results received, 60 results written.
+
+83 windows queued, 78 results received, 74 results written.
+
+99 windows queued, 94 results received, 89 results written.
+
+114 windows queued, 109 results received, 105 results written.
+
+128 windows queued, 123 results received, 119 results written.
+
+145 windows queued, 140 results received, 136 results written.
+
+159 windows queued, 154 results received, 150 results written.
+
+173 windows queued, 168 results received, 164 results written.
+
+186 windows queued, 181 results received, 177 results written.
+
+200 windows queued, 195 results received, 191 results written.
+
+215 windows queued, 210 results received, 206 results written.
+
+229 windows queued, 225 results received, 221 results written.
+
+243 windows queued, 238 results received, 234 results written.
+
+257 windows queued, 252 results received, 248 results written.
+
+270 windows queued, 265 results received, 261 results written.
+
+283 windows queued, 278 results received, 274 results written.
+
+299 windows queued, 294 results received, 290 results written.
+
+312 windows queued, 307 results received, 303 results written.
+
+326 windows queued, 321 results received, 316 results written.
+
+339 windows queued, 334 results received, 330 results written.
+
+352 windows queued, 348 results received, 344 results written.
+
+365 windows queued, 360 results received, 356 results written.
+
+378 windows queued, 374 results received, 370 results written.
+
+392 windows queued, 387 results received, 383 results written.
+
+403 windows queued, 398 results received, 394 results written.
+
+418 windows queued, 413 results received, 409 results written.
+
+429 windows queued, 424 results received, 420 results written.
+
+442 windows queued, 437 results received, 433 results written.
+
+454 windows queued, 449 results received, 445 results written.
+
+468 windows queued, 463 results received, 459 results written.
+
+480 windows queued, 475 results received, 471 results written.
+
+493 windows queued, 488 results received, 484 results written.
+
+506 windows queued, 501 results received, 497 results written.
+
+519 windows queued, 514 results received, 510 results written.
+
+533 windows queued, 528 results received, 524 results written.
+
+546 windows queued, 542 results received, 538 results written.
+
+561 windows queued, 556 results received, 552 results written.
+
+576 windows queued, 571 results received, 567 results written.
+
+589 windows queued, 584 results received, 580 results written.
+
+603 windows queued, 598 results received, 594 results written.
+
+618 windows queued, 613 results received, 609 results written.
+
+633 windows queued, 628 results received, 624 results written.
+
+649 windows queued, 644 results received, 640 results written.
+
+664 windows queued, 659 results received, 655 results written.
+
+678 windows queued, 673 results received, 669 results written.
+
+694 windows queued, 689 results received, 685 results written.
+
+711 windows queued, 706 results received, 701 results written.
+
+726 windows queued, 721 results received, 716 results written.
+
+741 windows queued, 736 results received, 731 results written.
+
+757 windows queued, 753 results received, 748 results written.
+
+775 windows queued, 770 results received, 765 results written.
+
+789 windows queued, 784 results received, 779 results written.
+
+804 windows queued, 799 results received, 794 results written.
+
+819 windows queued, 814 results received, 809 results written.
+
+835 windows queued, 830 results received, 825 results written.
+
+851 windows queued, 847 results received, 842 results written.
+
+867 windows queued, 862 results received, 857 results written.
+
+882 windows queued, 878 results received, 872 results written.
+
+899 windows queued, 894 results received, 887 results written.
+
+Waiting for all threads to finish
+904 windows were tested.
+896 results were written.
+
+Done.
