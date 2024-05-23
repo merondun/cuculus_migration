@@ -32,7 +32,7 @@ w | time_high | temp | duration | period  | adj_low | adj_high | adj_duration |
 
 Which gives us:
 
-![Periods](figures/WarmCold_Periods.png)
+![Periods](/figures/WarmCold_Periods.png)
 
 
 Script:
