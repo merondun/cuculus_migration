@@ -125,7 +125,7 @@ tapi_plot <- tapi %>%
   ggdist::stat_halfeye(width = .3,.width = 0, trim=FALSE, justification = 0, 
                        point_colour = NA,normalize='groups')+
   geom_boxplot(width=0.25,position=position_nudge(x=-0.25),outlier.alpha = 0.2)+
-  geom_text(data=sums,aes(x=Group,y=Inf,label=label),inherit.aes=FALSE,vjust=1.5,size=3)+
+  geom_text(data=sums,aes(x=Group,y=Inf,label=label),inherit.aes=FALSE,vjust=1.5,size=1.5)+
   facet_wrap(name~.,scales='free')+
   ylab('Value')+
   scale_fill_manual(values=cols)+
