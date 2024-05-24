@@ -20,7 +20,7 @@ hot_young <- icecore %>%  filter(time < 5e4) %>% slice_max(deltaT,n=20) %>%
 1      0     11500  0.17    11500
 ```
 
-But, we want our time periods to be a similar duration. I find the midpoitn of the cold periods, and then add +/- 5500 so that all periods are the same duration.
+But, we want our time periods to be a similar duration. I find the midpoint of the cold periods, and then add +/- 5750 so that all periods are the same duration (11.5K).
 
 | Temperature | Period  | Time_Low | Time_High | Duration |
 | ----------- | ------- | -------- | --------- | -------- |
