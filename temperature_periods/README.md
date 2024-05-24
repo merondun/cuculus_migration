@@ -22,14 +22,12 @@ hot_young <- icecore %>%  filter(time < 5e4) %>% slice_max(deltaT,n=20) %>%
 
 But, we want our time periods to be a similar duration. I find the midpoitn of the cold periods, and then add +/- 5500 so that all periods are the same duration.
 
-
 | Temperature | Period  | Time_Low | Time_High | Duration |
 | ----------- | ------- | -------- | --------- | -------- |
 | hot         | recent  | 0        | 11500     | 11500    |
 | cold        | recent  | 23000    | 34500     | 11500    |
-| hot         | ancient | 121000   | 132000    | 11000    |
+| hot         | ancient | 120750   | 132250    | 11500    |
 | cold        | ancient | 135500   | 147000    | 11500    |
-
 
 
 Which gives us:
