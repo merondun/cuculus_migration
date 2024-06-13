@@ -14,7 +14,7 @@ CHR=$1
 mkdir chromosome_vcfs chromosome_vcfs/stats
 
 raw_vcfs=/dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2021__Cuckoo_Resequencing/vcfs/all_samples-2022_11/merged
-chr_map=/dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/momi2/chr_map.txt
+chr_map=/dss/dsshome1/lxc07/di39dux/merondun/cuculus_migration/snp_calling/chr_map.txt
 
 #this bed contains GOOD regions which are neutral for demography
 neutral=/dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/extracting_neutral_sites/neutral-sites_cuckoo__intergenic-intron-4fold.bed
