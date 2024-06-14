@@ -6,92 +6,32 @@ Additional data on the dataset [here](https://www.ncei.noaa.gov/access/metadata/
 
 ## Assign Two Hot & Cold Periods
 
-Quantitatively assign a hot and cold period, one recent ( < 5e4) and one ancient ( 1.5e5 > x > 1e5 ) 
+Quantitatively assign t0, t1, and t2 hot and cold periods. 
 
 For example: identifying recent hot times:
 
 ```
-# Hot times, recent, set the low estimate to modern day (0) 
-hot_young <- icecore %>%  filter(time < 5e4) %>% slice_max(deltaT,n=20) %>% 
-  summarize(time_low = 0, time_high = max(time), temp = mean(deltaT), duration = time_high - time_low)
+# Cold times, recent
+cold_0 <- icecore %>%  filter(time < 5e4) %>% slice_min(deltaT,n=20) %>% 
+  summarize(time_low = min(time), time_high = max(time), temp = mean(deltaT), duration = time_high - time_low)
 
   time_low time_high  temp duration
-     <dbl>     <dbl> <dbl>    <dbl>
-1      0     11500  0.17    11500
+1    18000     39500 -8.27    21500
 ```
 
-But, we want our time periods to be a similar duration. I find the midpoint of the cold periods, and then add +/- 5750 so that all periods are the same duration (11.5K).
+But, we want our time periods to be a similar duration, we will select 10Ka for simplicity. I find the midpoint of the periods, and then add +/- 5000 so that all periods are the same duration (10K). Also ensure that the contemporary period starts at 0 and goes to 10Ka. 
 
-| Temperature | Period  | Time_Low | Time_High | Duration |
-| ----------- | ------- | -------- | --------- | -------- |
-| hot         | recent  | 0        | 11500     | 11500    |
-| cold        | recent  | 23000    | 34500     | 11500    |
-| hot         | ancient | 120750   | 132250    | 11500    |
-| cold        | ancient | 135500   | 147000    | 11500    |
+| Start  | End    | Duration | Stage | Period | Mean temperature |
+| ------ | ------ | -------- | ----- | ------ | ---------------- |
+| 0      | 10000  | 10000    | hot   | t0     | 0.005            |
+| 23750  | 33750  | 10000    | cold  | t0     | -7.6             |
+| 121500 | 131500 | 10000    | hot   | t1     | 1.94             |
+| 56750  | 66750  | 10000    | cold  | t1     | -6.46            |
+| 194000 | 204000 | 10000    | hot   | t2     | -1.73            |
+| 151500 | 161500 | 10000    | cold  | t2     | -7.55            |
 
 
 Which gives us:
 
 ![Periods](/figures/WarmCold_Periods.png)
 
-
-Script:
-
-```
-.libPaths('~/mambaforge/envs/R/lib/R/library')
-setwd('/dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/crosscoal/output')
-library(tidyverse)
-
-#import ice core data 
-icecore = read_tsv('/dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/figures/Ice_Temperature_Reconstructions_Kawamura_NOAA-6076.txt')
-icecore = icecore %>% dplyr::rename(time = TopAge)
-
-# Hot times, recent, set the low estimate to modern day (0) 
-hot_young <- icecore %>%  filter(time < 5e4) %>% slice_max(deltaT,n=20) %>% 
-  summarize(time_low = 0, time_high = max(time), temp = mean(deltaT), duration = time_high - time_low)
-
-# Cold times, recent
-cold_young <- icecore %>%  filter(time < 5e4) %>% slice_min(deltaT,n=20) %>% 
-  summarize(time_low = min(time), time_high = max(time), temp = mean(deltaT), duration = time_high - time_low)
-
-# Hot times, ancient
-hot_old <- icecore %>%  filter(time > 1e5 & time < 1.5e5) %>% slice_max(deltaT,n=20) %>% 
-  summarize(time_low = min(time), time_high = max(time), temp = mean(deltaT), duration = time_high - time_low)
-
-# Cold times, ancient
-cold_old <- icecore %>%  filter(time > 1e5 & time < 1.5e5) %>% slice_min(deltaT,n=3) %>% 
-  summarize(time_low = min(time), time_high = max(time), temp = mean(deltaT), duration = time_high - time_low)
-
-periods <- rbind(hot_young, cold_young, hot_old, cold_old) %>% 
-  mutate(temp = c('hot','cold','hot','cold'),
-         period = c('recent','recent','ancient','ancient'))
-periods
-
-# Shortest time is hot recent: 11.5K, adjust others taking the midpoint and ensuring they are all 11.5K
-periods <- periods %>% 
-  mutate(
-    #Calculate midpoint (duration / 2 + low point, and then add the interval on either side 
-    adj_low = ifelse(temp == 'cold', ((duration / 2 ) + time_low) - 5750, time_low),
-    adj_high = ifelse(temp == 'cold', ((duration / 2 ) + time_low) + 5750, time_high),
-    adj_duration = adj_high - adj_low
-  )
-periods
-
-# Kawamura NOAA 6076 Ice core inferred temperature
-ice_plot <- icecore %>% 
-  ggplot(aes(x = time, y = deltaT)) +
-  geom_line()+
-  #annotate(geom='rect',xmin=2e4,xmax=2.6e4,ymin=-Inf,ymax=Inf,fill='grey80',alpha=0.5)+
-  geom_text(data=periods,aes(x=adj_low+5750,y=4,label=temp),col='black')+
-  coord_cartesian(xlim=c(0,1.75e5))+
-  geom_rect(data=periods,aes(xmin=adj_low,xmax=adj_high,ymin=-Inf,ymax=Inf,fill=temp),
-            alpha=0.5,inherit.aes=FALSE)+
-  scale_fill_manual(values=c('cyan3','salmon2'))+
-  xlab('Time')+ylab('Delta T (°C)')+
-  theme_test(base_size=7)
-ice_plot
-
-png('~/merondun/cuculus_migration/figures/WarmCold_Periods.png',units='in',res=300,height=3,width=6)
-ice_plot
-dev.off()
-```
