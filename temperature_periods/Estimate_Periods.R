@@ -22,17 +22,9 @@ hot_1 <- icecore %>%  filter(time < 1.75e5 & time > 5e4) %>% slice_max(deltaT,n=
 cold_1 <- icecore %>%  filter(time < 1e5 & time > 5e4) %>% slice_min(deltaT,n=20) %>% 
   summarize(time_low = min(time), time_high = max(time), temp = mean(deltaT), duration = time_high - time_low)
 
-# Hot times, ancient
-hot_2 <- icecore %>%  filter(time > 1.75e5 & time < 2.1e5) %>% slice_max(deltaT,n=20) %>% 
-  summarize(time_low = min(time), time_high = max(time), temp = mean(deltaT), duration = time_high - time_low)
-
-# Cold times, ancient
-cold_2 <- icecore %>%  filter(time > 1e5 & time < 1.75e5) %>% slice_min(deltaT,n=20) %>% 
-  summarize(time_low = min(time), time_high = max(time), temp = mean(deltaT), duration = time_high - time_low)
-
-periods <- rbind(hot_0, cold_0, hot_1, cold_1, hot_2, cold_2) %>% 
-  mutate(stage = c('hot','cold','hot','cold','hot','cold'),
-         period = c('t0','t0','t1','t1','t2','t2'))
+periods <- rbind(hot_0, cold_0, hot_1, cold_1) %>% 
+  mutate(stage = c('hot','cold','hot','cold'),
+         period = c('t0','t0','t1','t1'))
 periods
 
 # Adjusting durations to be exactly 10000
@@ -64,12 +56,12 @@ adjusted_contemp
 ice_plot <- icecore %>% 
   ggplot(aes(x = time, y = deltaT)) +
   geom_line()+
-  coord_cartesian(xlim=c(0,2.5e5))+
+  coord_cartesian(xlim=c(0,1.5e5))+
   geom_rect(data=adjusted_contemp,aes(xmin=time_low,xmax=time_high,ymin=-Inf,ymax=Inf,fill=stage),
             alpha=0.5,inherit.aes=FALSE)+
   scale_fill_manual(values=c('cyan3','salmon2'))+
   geom_label(data=adjusted_contemp,size=1.5,aes(x=time_low+5500,y=5,
-                                       label=paste0(stage,': ',period,'\n',round(temp,2),'°C\n',time_low/1000,' - ',time_high/1000,'Ka')),col='black')+
+                                                label=paste0(stage,': ',period,'\n',round(temp,2),'°C\n',time_low/1000,' - ',time_high/1000,'Ka')),col='black')+
   xlab('Time')+ylab('Delta T (°C)')+
   theme_test(base_size=7)
 ice_plot
