@@ -60,12 +60,13 @@ ice_plot <- icecore %>%
   geom_rect(data=adjusted_contemp,aes(xmin=time_low,xmax=time_high,ymin=-Inf,ymax=Inf,fill=stage),
             alpha=0.5,inherit.aes=FALSE)+
   scale_fill_manual(values=c('cyan3','salmon2'))+
-  geom_label(data=adjusted_contemp,size=1.5,aes(x=time_low+5500,y=5,
-                                                label=paste0(stage,': ',period,'\n',round(temp,2),'°C\n',time_low/1000,' - ',time_high/1000,'Ka')),col='black')+
+  geom_label(data=adjusted_contemp,size=1.5,aes(x=time_low+5500,y=4,
+                                                label=paste0(stage,': ',period,'  ',round(temp,2),'°C\n',time_low/1000,' - ',time_high/1000,'Ka')),col='black')+
   xlab('Time')+ylab('Delta T (°C)')+
-  theme_test(base_size=7)
+  theme_test(base_size=10)
 ice_plot
 
-png('~/merondun/cuculus_migration/figures/WarmCold_Periods.png',units='in',res=300,height=3,width=6)
+png('~/merondun/cuculus_migration/figures/WarmCold_Periods.png',units='in',res=300,height=2,width=3.5)
+pdf('~/merondun/cuculus_migration/figures/WarmCold_Periods.pdf',height=2,width=3.5)
 ice_plot
 dev.off()
