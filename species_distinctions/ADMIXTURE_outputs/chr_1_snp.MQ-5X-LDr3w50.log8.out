@@ -1,0 +1,49 @@
+****                   ADMIXTURE Version 1.3.0                  ****
+****                    Copyright 2008-2015                     ****
+****           David Alexander, Suyash Shringarpure,            ****
+****                John  Novembre, Ken Lange                   ****
+****                                                            ****
+****                 Please cite our paper!                     ****
+****   Information at www.genetics.ucla.edu/software/admixture  ****
+
+Parallel execution requested.  Will use 7 threads.
+Cross-validation will be performed.  Folds=5.
+Random seed: 43
+Point estimation method: Block relaxation algorithm
+Convergence acceleration algorithm: QuasiNewton, 3 secant conditions
+Point estimation will terminate when objective function delta < 0.0001
+Estimation of standard errors disabled; will compute point estimates only.
+Size of G: 12x14523
+Performing five EM steps to prime main algorithm
+1 (EM) 	Elapsed: 0.026	Loglikelihood: -131613	(delta): 112136
+2 (EM) 	Elapsed: 0.024	Loglikelihood: -120700	(delta): 10913.9
+3 (EM) 	Elapsed: 0.023	Loglikelihood: -115245	(delta): 5454.96
+4 (EM) 	Elapsed: 0.025	Loglikelihood: -110868	(delta): 4376.93
+5 (EM) 	Elapsed: 0.023	Loglikelihood: -107053	(delta): 3814.22
+Initial loglikelihood: -107053
+Starting main algorithm
+1 (QN/Block) 	Elapsed: 0.085	Loglikelihood: -76855.6	(delta): 30197.9
+2 (QN/Block) 	Elapsed: 0.086	Loglikelihood: -68954.5	(delta): 7901.06
+3 (QN/Block) 	Elapsed: 0.099	Loglikelihood: -66433.9	(delta): 2520.61
+4 (QN/Block) 	Elapsed: 0.097	Loglikelihood: -65488.3	(delta): 945.615
+5 (QN/Block) 	Elapsed: 0.093	Loglikelihood: -65149.9	(delta): 338.417
+6 (QN/Block) 	Elapsed: 0.09	Loglikelihood: -65034.6	(delta): 115.202
+7 (QN/Block) 	Elapsed: 0.09	Loglikelihood: -65021	(delta): 13.6371
+8 (QN/Block) 	Elapsed: 0.09	Loglikelihood: -65019.9	(delta): 1.08927
+9 (QN/Block) 	Elapsed: 0.095	Loglikelihood: -65019.9	(delta): 0.014425
+10 (QN/Block) 	Elapsed: 0.097	Loglikelihood: -65019.9	(delta): 0
+Summary: 
+Converged in 10 iterations (1.068 sec)
+Loglikelihood: -65019.909177
+Fst divergences between estimated populations: 
+	Pop0	Pop1	Pop2	Pop3	Pop4	Pop5	Pop6	
+Pop0	
+Pop1	0.466	
+Pop2	0.395	0.372	
+Pop3	0.592	0.568	0.455	
+Pop4	0.363	0.336	0.237	0.424	
+Pop5	0.514	0.492	0.391	0.580	0.361	
+Pop6	0.458	0.462	0.389	0.585	0.356	0.505	
+Pop7	0.512	0.483	0.343	0.595	0.355	0.525	0.504	
+CV error (K=8): 0.41266
+Writing output files.

@@ -1,0 +1,46 @@
+pop1	pop2	chromosome	window_pos_1	window_pos_2	avg_wc_fst	no_snps	filter
+C. saturatus	C. micropterus	1	1	209323829	0.4418412294207816	6748726	No Pruning
+C. saturatus	C. poliocephalus	1	1	209323829	0.5189382764600173	6748726	No Pruning
+C. saturatus	C. canorus bakeri	1	1	209323829	0.2932126061829586	6748726	No Pruning
+C. saturatus	C. canorus canorus	1	1	209323829	0.2174906112010934	6748726	No Pruning
+C. saturatus	C. optatus	1	1	209323829	0.0845846571604941	6748726	No Pruning
+C. micropterus	C. poliocephalus	1	1	209323829	0.7014976855360989	6748726	No Pruning
+C. micropterus	C. canorus bakeri	1	1	209323829	0.5936881265359544	6748726	No Pruning
+C. micropterus	C. canorus canorus	1	1	209323829	0.5328067588343964	6748726	No Pruning
+C. micropterus	C. optatus	1	1	209323829	0.5008442309866399	6748726	No Pruning
+C. poliocephalus	C. canorus bakeri	1	1	209323829	0.6498042307116674	6748726	No Pruning
+C. poliocephalus	C. canorus canorus	1	1	209323829	0.5967310120693681	6748726	No Pruning
+C. poliocephalus	C. optatus	1	1	209323829	0.5759282226241078	6748726	No Pruning
+C. canorus bakeri	C. canorus canorus	1	1	209323829	0.1001839114025249	6748726	No Pruning
+C. canorus bakeri	C. optatus	1	1	209323829	0.3590493997357742	6748726	No Pruning
+C. canorus canorus	C. optatus	1	1	209323829	0.2775236798268324	6748726	No Pruning
+C. saturatus	C. micropterus	1	1	209323829	0.1871206122987595	14523	R3 w50
+C. saturatus	C. poliocephalus	1	1	209323829	0.248222802123639	14523	R3 w50
+C. saturatus	C. canorus bakeri	1	1	209323829	0.087342123382696	14523	R3 w50
+C. saturatus	C. canorus canorus	1	1	209323829	0.0596756095072936	14523	R3 w50
+C. saturatus	C. optatus	1	1	209323829	0.0372102288811768	14523	R3 w50
+C. micropterus	C. poliocephalus	1	1	209323829	0.492216823300067	14523	R3 w50
+C. micropterus	C. canorus bakeri	1	1	209323829	0.2417399892260729	14523	R3 w50
+C. micropterus	C. canorus canorus	1	1	209323829	0.2122488512478601	14523	R3 w50
+C. micropterus	C. optatus	1	1	209323829	0.2091008323100013	14523	R3 w50
+C. poliocephalus	C. canorus bakeri	1	1	209323829	0.3133949652879748	14523	R3 w50
+C. poliocephalus	C. canorus canorus	1	1	209323829	0.2827788191190253	14523	R3 w50
+C. poliocephalus	C. optatus	1	1	209323829	0.2808574064873306	14523	R3 w50
+C. canorus bakeri	C. canorus canorus	1	1	209323829	0.0469151742484111	14523	R3 w50
+C. canorus bakeri	C. optatus	1	1	209323829	0.1123607162865976	14523	R3 w50
+C. canorus canorus	C. optatus	1	1	209323829	0.0768083056168599	14523	R3 w50
+C. saturatus	C. micropterus	1	1	209323829	0.3600698226504679	1400530	R8 w50
+C. saturatus	C. poliocephalus	1	1	209323829	0.4347626002699974	1400530	R8 w50
+C. saturatus	C. canorus bakeri	1	1	209323829	0.2147453398719935	1400530	R8 w50
+C. saturatus	C. canorus canorus	1	1	209323829	0.1469401645822678	1400530	R8 w50
+C. saturatus	C. optatus	1	1	209323829	0.0635388057605237	1400530	R8 w50
+C. micropterus	C. poliocephalus	1	1	209323829	0.698595215921517	1400530	R8 w50
+C. micropterus	C. canorus bakeri	1	1	209323829	0.5008126886057224	1400530	R8 w50
+C. micropterus	C. canorus canorus	1	1	209323829	0.4406671487511098	1400530	R8 w50
+C. micropterus	C. optatus	1	1	209323829	0.4162619560978648	1400530	R8 w50
+C. poliocephalus	C. canorus bakeri	1	1	209323829	0.5636890844235762	1400530	R8 w50
+C. poliocephalus	C. canorus canorus	1	1	209323829	0.5090614028991531	1400530	R8 w50
+C. poliocephalus	C. optatus	1	1	209323829	0.4940614398883443	1400530	R8 w50
+C. canorus bakeri	C. canorus canorus	1	1	209323829	0.0839203241868444	1400530	R8 w50
+C. canorus bakeri	C. optatus	1	1	209323829	0.2654339528735596	1400530	R8 w50
+C. canorus canorus	C. optatus	1	1	209323829	0.1926146654503515	1400530	R8 w50
