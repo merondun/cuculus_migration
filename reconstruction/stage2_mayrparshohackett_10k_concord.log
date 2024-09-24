@@ -1,0 +1,24 @@
+IQ-TREE multicore version 2.2.0.3 COVID-edition for Linux 64-bit built May 11 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    cm2login1 (AVX2, FMA3, 125 GB RAM)
+Command: iqtree -t stage2_mayrparshohackett_10k_species_tree.tre --gcf stage2_mayrparshohackett_10k.tre --prefix stage2_mayrparshohackett_10k_concord
+Seed:    966992 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Sep 23 20:41:54 2024
+Kernel:  AVX+FMA - 1 threads (56 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 56 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading tree stage2_mayrparshohackett_10k_species_tree.tre ...
+rooted tree with 41 taxa and 81 branches
+Reading tree(s) file stage2_mayrparshohackett_10k.tre ...
+10000 tree(s) loaded (10000 rooted and 0 unrooted)
+Computing gene concordance factor...
+1.381 sec
+Tree with concordance factors written to stage2_mayrparshohackett_10k_concord.cf.tree
+Annotated tree (best viewed in FigTree) written to stage2_mayrparshohackett_10k_concord.cf.tree.nex
+Tree with branch IDs written to stage2_mayrparshohackett_10k_concord.cf.branch
+Concordance factors per branch printed to stage2_mayrparshohackett_10k_concord.cf.stat
+Date and Time: Mon Sep 23 20:41:57 2024
