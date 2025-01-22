@@ -3,37 +3,37 @@
 #SBATCH --get-user-env
 #SBATCH --mail-user=merondun@bio.lmu.de
 #SBATCH --clusters=biohpc_gen
-#SBATCH --partition=biohpc_gen_highmem
-#SBATCH --cpus-per-task=10
-#SBATCH --time=120:00:00
+#SBATCH --partition=biohpc_gen_normal
+#SBATCH --cpus-per-task=15
+#SBATCH --time=48:00:00
 
 #mamba activate samtools0.1.19
 #submit with script 5, otherwise: sbatch ~/merondun/cuculus_migration/msmc/4.Crosscoalescent_Iterative.sh CCW CCE 1
 
 genome=/dss/dsslegfs01/pr53da/pr53da-dss-0021/assemblies/Cuculus.canorus/VGP.bCucCan1.pri/GCA_017976375.1_bCucCan1.pri_genomic.CHR.fa
 #file with the mosdepth coverage masks (sites < 1/2 or > 2 the chromosome-sample-specific coverage are ignored )
-maskdir=/dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/coverage_masks
+maskdir=/dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/20241220_CrossCoal3Pop/coverage_masks
 #vcfs, individual for sample-chr
-vcfdir=/dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/individual_vcfs
+vcfdir=/dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/20241220_CrossCoal3Pop/individual_vcfs
 #genome-wide mappability mask
 gwmask=/dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2021__Cuckoo_Resequencing/demography/mappability/masks/
 #neutral sites
-neutral=/dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/neutral-sites_cuckoo__intergenic-intron-4fold.bed
+neutral=/dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/20241220_CrossCoal3Pop/neutral-sites_cuckoo__intergenic-intron-4fold.bed
 #this bed contains BAD sites which are repeats (bed does not include 'low_complexity' and 'simple_repeats', so it's largely TEs)
-repeats=/dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin/GCA_017976375.1_bCucCan1.pri_genomic.CHR.AvianRepeatModeler_Repeats-ExcludingLowComplexity-SimpleRepeats.bed
+repeats=/dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/20241220_CrossCoal3Pop/GCA_017976375.1_bCucCan1.pri_genomic.CHR.AvianRepeatModeler_Repeats-ExcludingLowComplexity-SimpleRepeats.bed
 
-cd /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin
+cd /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/20241220_CrossCoal3Pop
 
 #submit population 1, population 2, iteration
 P1=$1
 P2=$2
 IT=$3
 
-mkdir crosscoal crosscoal/input crosscoal/output
+mkdir -p crosscoal crosscoal/input crosscoal/output
 
 #grab 2 random samples from each population
-grep -w ${P1} ~/merondun/cuculus_migration/Samples_Demography_N10_CCW-CCE-COW-COE_2024MAR13.pop | awk '{print $1}' | shuf | head -n 2 > crosscoal/${P1}_${P2}_${IT}.inds
-grep -w ${P2} ~/merondun/cuculus_migration/Samples_Demography_N10_CCW-CCE-COW-COE_2024MAR13.pop | awk '{print $1}' | shuf | head -n 2 >> crosscoal/${P1}_${P2}_${IT}.inds
+grep -w ${P1} ~/merondun/cuculus_migration/Samples_Demography_N10_CCW-CCE-COW_20241220.pop | awk '{print $1}' | shuf | head -n 2 > crosscoal/${P1}_${P2}_${IT}.inds
+grep -w ${P2} ~/merondun/cuculus_migration/Samples_Demography_N10_CCW-CCE-COW_20241220.pop | awk '{print $1}' | shuf | head -n 2 >> crosscoal/${P1}_${P2}_${IT}.inds
 
 #loop through chromosomes and create the msmc input file
 for i in $(cat Chromosomes.list); do

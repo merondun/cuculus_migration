@@ -3,13 +3,17 @@
 #SBATCH --get-user-env
 #SBATCH --mail-user=merondun@bio.lmu.de
 #SBATCH --clusters=biohpc_gen
-#SBATCH --partition=biohpc_gen_production
+#SBATCH --partition=biohpc_gen_normal
 #SBATCH --cpus-per-task=10
-#SBATCH --time=200:00:00
+#SBATCH --time=48:00:00
 
 # mamba activate snps
 # submit as  for i in $(cat Chromosomes.list); do sbatch -J FILTER_${i} ~/merondun/cuculus_migration/snp_calling/4.SNP_Filtering.sh ${i}; done 
+
 CHR=$1
+
+WD=/dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses
+cd ${WD}
 
 mkdir chromosome_vcfs chromosome_vcfs/stats
 

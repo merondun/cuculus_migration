@@ -9,7 +9,9 @@
 
 CHR=$1
 
-cd /dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/unrelated_chyiyin
+WORKDIR=/dss/dsslegfs01/pr53da/pr53da-dss-0021/projects/2023__MigratoryGenomics/analyses/msmc/20241220_CrossCoal3Pop
+
+cd ${WORKDIR}
 
 mkdir full_vcf
 
