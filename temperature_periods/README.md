@@ -8,15 +8,25 @@ Additional data on the dataset [here](https://www.ncei.noaa.gov/access/metadata/
 
 Quantitatively assign t0 and t1 hot and cold periods. 
 
-For example: identifying recent hot times:
+For example: 
 
 ```
+# Hot times, recent
+hot_0 <- icecore %>%  filter(time < 5e4) %>% slice_max(deltaT,n=20) %>%
+  summarize(time_low = 0, time_high = max(time), temp = mean(deltaT), duration = time_high - time_low)
+
 # Cold times, recent
-cold_0 <- icecore %>%  filter(time < 5e4) %>% slice_min(deltaT,n=20) %>% 
+cold_0 <- icecore %>%  filter(time < 5e4) %>% slice_min(deltaT,n=20) %>%
   summarize(time_low = min(time), time_high = max(time), temp = mean(deltaT), duration = time_high - time_low)
 
-  time_low time_high  temp duration
-1    18000     39500 -8.27    21500
+# Hot times, mid
+hot_1 <- icecore %>%  filter(time < 1.75e5 & time > 5e4) %>% slice_max(deltaT,n=20) %>%
+  summarize(time_low = min(time), time_high = max(time), temp = mean(deltaT), duration = time_high - time_low)
+
+# Cold times, mid
+cold_1 <- icecore %>%  filter(time < 1e5 & time > 5e4) %>% slice_min(deltaT,n=20) %>%
+  summarize(time_low = min(time), time_high = max(time), temp = mean(deltaT), duration = time_high - time_low)
+
 ```
 
 But, we want our time periods to be a similar duration, we will select 10Ka for simplicity. I find the midpoint of the periods, and then add +/- 5000 so that all periods are the same duration (10K). Also ensure that the contemporary period starts at 0 and goes to 10Ka. 

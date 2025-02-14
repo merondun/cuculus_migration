@@ -1,0 +1,62 @@
+//Parameters for the coalescence simulation program : fastsimcoal.exe
+4 samples to simulate :
+//Population effective sizes (number of genes)
+311095
+15010
+35333
+793259
+//Samples sizes and samples age 
+20
+20
+20
+20
+//Growth rates	: negative growth implies population expansion
+0
+0
+0
+0
+//Number of migration matrices : 0 implies no migration between demes
+4
+//Migration matrix 0
+0 4.688032422220269e-05 0 0
+2.988589151008236e-04 0 1.130671974156469e-05 0
+0 1.197464799541591e-05 0 3.710161411821560e-04
+0 0 1.309058147310597e-03 0
+//Migration matrix 1
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+//Migration matrix 2
+0 1.064151498007365e-02 0 0
+4.030692047430284e-05 0 8.819982914233454e-04 0
+0 9.951231859017053e-03 0 1.063025975111245e-03
+0 0 1.973789054488646e-05 0
+//Migration matrix 3
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+//historical event: time, source, sink, migrants, new deme size, new growth rate, migration matrix index
+15 historical event
+3623 0 0 0 1 0 1
+3623 1 1 0 1 0 1
+3623 2 2 0 1 0 1
+3623 3 3 0 1 0 1
+46758 0 0 0 1 0 2
+46758 1 1 0 1 0 2
+46758 2 2 0 1 0 2
+46758 3 3 0 1 0 2
+47290 0 0 0 1 0 3
+47290 1 1 0 1 0 3
+47290 2 2 0 1 0 3
+47290 3 3 0 1 0 3
+47961 3 2 1 229323 0 3 absoluteResize
+54233 1 0 1 144682 0 3 absoluteResize
+321823 2 0 1 131811 0 3 absoluteResize
+//Number of independent loci [chromosome] 
+7209579 0
+//Per chromosome: Number of contiguous linkage Block: a block is a set of contiguous loci
+1
+//per Block:data type, number of loci, per generation recombination and mutation rates and optional parameters
+DNA 100 0 1.01e-8 0.5
