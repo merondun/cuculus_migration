@@ -1,5 +1,7 @@
 # Evolutionary Genomics of Migration: Oriental and common cuckoos 
 
+Perpeptual Zenodo DOI: [![DOI](https://zenodo.org/badge/656371438.svg)](https://doi.org/10.5281/zenodo.14873434)
+
 This project aims to investigate the evolutionary genomics underlying migratory strategy in common and oriental cuckoos.
 
 ## Project Structure
